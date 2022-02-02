@@ -1,0 +1,22 @@
+:root {
+    /* Colors */
+    --color-primary-light: #f1f5f9;
+    --color-primary: #64748b;
+    --color-primary-dark: #0f172a;
+
+    --color-background: #f3f6fd;
+    --color-white: #fff;
+    --color-black: #000;
+
+    /* Breakpoints for diff. screens */
+    --breakpoint-xs: 48rem;
+    --breakpoint-sm: 64rem;
+    --breakpoint-md: 76.8rem;
+    --breakpoint-lg: 102.4rem;
+    --breakpoint-xl: 128rem;
+    --breakpoint-2xl: 153.6rem;
+
+    /* Layout */
+    --margin: 0.25rem;
+    --padding: 0.25rem;
+}
