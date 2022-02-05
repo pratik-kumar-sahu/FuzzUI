@@ -1,0 +1,50 @@
+.alert-container {
+    width: 100%;
+    border-radius: 1rem;
+}
+
+.alert {
+    width: max-content;
+    padding: 0.6rem 1.4rem 0.8rem 1.2rem;
+    border-radius: 0.5rem;
+    display: flex;
+    align-items: center;
+    color: var(--color-primary-dark);
+}
+
+.alert-success {
+    background-color: #bbf7d0;
+}
+
+.alert-danger {
+    background-color: #fecaca;
+}
+
+.alert-warning {
+    background-color: #fef08a;
+}
+
+.alert-info {
+    background-color: #bae6fd;
+}
+
+.alert-icon {
+    align-self: center;
+    margin-right: 0.5rem;
+}
+
+.success {
+    color: green;
+}
+
+.danger {
+    color: #dc2626;
+}
+
+.warning {
+    color: #ca8a04;
+}
+
+.info {
+    color: #0284c7;
+}
