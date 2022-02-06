@@ -1,0 +1,26 @@
+.badge {
+    width: 1.2rem;
+    height: 1.2rem;
+    font-size: 1.2rem;
+    position: absolute;
+    top: -10%;
+    left: 66%;
+    border-radius: 50%;
+    border: 2px solid var(--color-white);
+}
+
+.badge-online {
+    background-color: green;
+}
+
+.badge-offline {
+    background-color: var(--color-primary);
+}
+
+.badge-away {
+    background-color: #f59e0b;
+}
+
+.badge-busy {
+    background-color: red;
+}
