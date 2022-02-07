@@ -8,32 +8,102 @@
         <title>FuzzUI</title>
     </head>
     <body>
-        <main class="parent-container flex-column">
-            <section class="header m-4 p-4">
-                <div class="first"></div>
+        <main class="parent-container flex-column relative">
+            <section class="header p-4">
                 <h1 class="title">Fuzz UI</h1>
-                <div class="third"></div>
             </section>
             <section class="flex-row main-content mx-4">
                 <nav class="nav mr-2 flex-column flex-center">
-                    <a href="../index.html"
-                        ><ion-icon
-                            class="icon my-3"
-                            name="home-outline"
-                        ></ion-icon
-                    ></a>
-                    <a href="#"
-                        ><ion-icon
-                            class="icon my-3"
-                            name="document-text-outline"
-                        ></ion-icon
-                    ></a>
+                    <a href="../index.html"><ion-icon class="icon my-3" name="home-outline"></ion-icon></a>
+                    <a href="#"><ion-icon class="icon my-3" name="documents-outline"></ion-icon></a>
+                    <a href="#scrollOnTop"><ion-icon class="icon my-3" name="push-outline"></ion-icon></a>
                 </nav>
 
-                <section class="content2 mx-2 p-5 inner-shadow"></section>
+                <section class="content-docs mx-2 p-5 inner-shadow">
+                    <div id="scrollOnTop"></div>
+                    <div class="my-4" id="Alerts">Alerts</div>
+                    <div class="my-4" id="Avatar">Avatar</div>
+                    <div class="my-4" id="Badge">Badge</div>
+                    <div class="my-4" id="Button">Button</div>
+
+                    <hr />
+
+                    <div class="mb-4" id="Cards">
+                        <div class="p-2">
+                            <p class="big-heading">Cards</p>
+                            <p class="normal-heading">Example of Cards</p>
+                            <div class="demo-box flex-row mb-4">
+                                <div id="sectionClass" class="section">
+                                    <img
+                                        id="imageClass"
+                                        class="image"
+                                        src="https://images.unsplash.com/photo-1444703686981-a3abbc4d4fe3?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80"
+                                        alt="sky"
+                                    />
+                                    <div id="contentClass" class="content">
+                                        <p id="headingClass" class="heading">Our Changing Planet</p>
+                                        <p class="author">by Kurt Wagner</p>
+                                    </div>
+                                    <p id="paraClass" class="para">
+                                        Visit ten places on our planet that are undergoing the biggest changes today.
+                                    </p>
+                                    <div class="buttons">
+                                        <div>
+                                            <button class="btn btn-primary-solid">Read</button>
+                                            <button class="btn btn-primary-outline">Bookmark</button>
+                                        </div>
+                                        <ion-icon class="card-icon" name="heart-outline"></ion-icon>
+                                        <ion-icon class="card-icon" name="share-social-outline"></ion-icon>
+                                        <ion-icon class="card-icon" name="ellipsis-vertical-outline"></ion-icon>
+                                    </div>
+                                </div>
+
+                                <div id="sectionClass" class="section section1">
+                                    <img
+                                        id="imageClass"
+                                        class="image image1"
+                                        src="https://images.unsplash.com/photo-1444703686981-a3abbc4d4fe3?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80"
+                                        alt="sky"
+                                    />
+                                    <div id="contentClass" class="content content1">
+                                        <p id="headingClass" class="heading heading1">Our Changing Planet</p>
+                                        <p class="author">by Kurt Wagner</p>
+                                    </div>
+                                    <p id="paraClass" class="para">
+                                        Visit ten places on our planet that are undergoing the biggest changes today.
+                                    </p>
+                                    <div class="buttons">
+                                        <div>
+                                            <button class="btn btn-primary-solid">Read</button>
+                                            <button class="btn btn-primary-outline">Bookmark</button>
+                                        </div>
+                                        <ion-icon class="card-icon" name="heart-outline"></ion-icon>
+                                        <ion-icon class="card-icon" name="share-social-outline"></ion-icon>
+                                        <ion-icon class="card-icon" name="ellipsis-vertical-outline"></ion-icon>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="code-snippet-container mb-5">
+                                <code>
+                                    <iframe
+                                        class="iframe iframe-minHeight"
+                                        src="https://carbon.now.sh/embed?bg=rgba%28249%2C237%2C212%2C1%29&t=lucario&wt=sharp&l=htmlmixed&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=IBM+Plex+Mono&fs=14px&lh=143%25&si=false&es=2x&wm=false&code=%253Cdiv%2520id%253D%2522sectionClass%2522%2520class%253D%2522section%2522%253E%250A%2520%2520%2520%2520%253Cimg%250A%2520%2520%2520%2520%2520%2520%2520%2520id%253D%2522imageClass%2522%250A%2520%2520%2520%2520%2520%2520%2520%2520class%253D%2522image%2522%250A%2520%2520%2520%2520%2520%2520%2520%2520src%253D%2522https%253A%252F%252Fimages.unsplash.com%252Fphoto-1444703686981-a3abbc4d4fe3%253Fixlib%253Drb-1.2.1%2526ixid%253DMnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8%2526auto%253Dformat%2526fit%253Dcrop%2526w%253D870%2526q%253D80%2522%250A%2520%2520%2520%2520%2520%2520%2520%2520alt%253D%2522sky%2522%250A%2520%2520%2520%2520%252F%253E%250A%2520%2520%2520%2520%253Cdiv%2520id%253D%2522contentClass%2522%2520class%253D%2522content%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cp%2520id%253D%2522headingClass%2522%2520class%253D%2522heading%2522%253EOur%2520Changing%2520Planet%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cp%2520class%253D%2522author%2522%253Eby%2520Kurt%2520Wagner%253C%252Fp%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253Cp%2520id%253D%2522paraClass%2522%2520class%253D%2522para%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520Visit%2520ten%2520places%2520on%2520our%2520planet%2520that%2520are%2520undergoing%2520the%2520biggest%2520changes%2520today.%250A%2520%2520%2520%2520%253C%252Fp%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522buttons%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522btn%2520btn-primary-solid%2522%253ERead%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522btn%2520btn-primary-outline%2522%253EBookmark%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cion-icon%2520class%253D%2522icon%2522%2520name%253D%2522heart-outline%2522%253E%253C%252Fion-icon%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cion-icon%2520class%253D%2522icon%2522%2520name%253D%2522share-social-outline%2522%253E%253C%252Fion-icon%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cion-icon%2520class%253D%2522icon%2522%2520name%253D%2522ellipsis-vertical-outline%2522%253E%253C%252Fion-icon%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%253C%252Fdiv%253E%250A%250A%253Cdiv%2520id%253D%2522sectionClass%2522%2520class%253D%2522section%2520section1%2522%253E%250A%2520%2520%2520%2520%253Cimg%250A%2520%2520%2520%2520%2520%2520%2520%2520id%253D%2522imageClass%2522%250A%2520%2520%2520%2520%2520%2520%2520%2520class%253D%2522image%2520image1%2522%250A%2520%2520%2520%2520%2520%2520%2520%2520src%253D%2522https%253A%252F%252Fimages.unsplash.com%252Fphoto-1444703686981-a3abbc4d4fe3%253Fixlib%253Drb-1.2.1%2526ixid%253DMnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8%2526auto%253Dformat%2526fit%253Dcrop%2526w%253D870%2526q%253D80%2522%250A%2520%2520%2520%2520%2520%2520%2520%2520alt%253D%2522sky%2522%250A%2520%2520%2520%2520%252F%253E%250A%2520%2520%2520%2520%253Cdiv%2520id%253D%2522contentClass%2522%2520class%253D%2522content%2520content1%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cp%2520id%253D%2522headingClass%2522%2520class%253D%2522heading%2520heading1%2522%253EOur%2520Changing%2520Planet%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cp%2520class%253D%2522author%2522%253Eby%2520Kurt%2520Wagner%253C%252Fp%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253Cp%2520id%253D%2522paraClass%2522%2520class%253D%2522para%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520Visit%2520ten%2520places%2520on%2520our%2520planet%2520that%2520are%2520undergoing%2520the%2520biggest%2520changes%2520today.%250A%2520%2520%2520%2520%253C%252Fp%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522buttons%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522btn%2520btn-primary-solid%2522%253ERead%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522btn%2520btn-primary-outline%2522%253EBookmark%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cion-icon%2520class%253D%2522icon%2522%2520name%253D%2522heart-outline%2522%253E%253C%252Fion-icon%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cion-icon%2520class%253D%2522icon%2522%2520name%253D%2522share-social-outline%2522%253E%253C%252Fion-icon%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cion-icon%2520class%253D%2522icon%2522%2520name%253D%2522ellipsis-vertical-outline%2522%253E%253C%252Fion-icon%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%253C%252Fdiv%253E"
+                                        frameborder="0"
+                                        sandbox="allow-scripts allow-same-origin"
+                                    ></iframe>
+                                </code>
+                            </div>
+                        </div>
+                    </div>
+
+                    <hr />
+
+                    <div class="my-4" id="Image">Image</div>
+                    <div class="my-4" id="Input">Input</div>
+                </section>
 
                 <section class="sidebar ml-2 p-4">
-                    <h2 class="mt-5">Components</h2>
+                    <h2 class="component mt-5">Components</h2>
                     <ul class="sidebar-links">
                         <li class="sidebar-link-item">
                             <a href="#Alerts">Alerts</a>
@@ -56,22 +126,13 @@
                         <li class="sidebar-link-item">
                             <a href="#Input">Input</a>
                         </li>
-                        <li class="sidebar-link-item">
-                            <a href="#Text">Text</a>
-                        </li>
                     </ul>
                 </section>
             </section>
         </main>
 
-        <script
-            type="module"
-            src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
-        ></script>
-        <script
-            nomodule
-            src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
-        ></script>
-        <script src="https://use.fontawesome.com/d5c66dd72e.js"></script>
+        <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+        <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+        <script src="../logics/main.js"></script>
     </body>
 </html>
