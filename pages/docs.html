@@ -8,32 +8,70 @@
         <title>FuzzUI</title>
     </head>
     <body>
-        <main class="parent-container flex-column">
-            <section class="header m-4 p-4">
-                <div class="first"></div>
+        <main class="parent-container flex-column relative">
+            <section class="header p-4">
                 <h1 class="title">Fuzz UI</h1>
-                <div class="third"></div>
             </section>
             <section class="flex-row main-content mx-4">
                 <nav class="nav mr-2 flex-column flex-center">
-                    <a href="../index.html"
-                        ><ion-icon
-                            class="icon my-3"
-                            name="home-outline"
-                        ></ion-icon
-                    ></a>
-                    <a href="#"
-                        ><ion-icon
-                            class="icon my-3"
-                            name="document-text-outline"
-                        ></ion-icon
-                    ></a>
+                    <a href="../index.html"><ion-icon class="icon my-3" name="home-outline"></ion-icon></a>
+                    <a href="#"><ion-icon class="icon my-3" name="documents-outline"></ion-icon></a>
+                    <a href="#scrollOnTop"><ion-icon class="icon my-3" name="push-outline"></ion-icon></a>
                 </nav>
 
-                <section class="content2 mx-2 p-5 inner-shadow"></section>
+                <section class="content-docs mx-2 p-5 inner-shadow">
+                    <div id="scrollOnTop"></div>
+                    <div class="my-4" id="Alerts">Alerts</div>
+                    <div class="my-4" id="Avatar">Avatar</div>
+                    <div class="my-4" id="Badge">Badge</div>
+                    <div class="my-4" id="Button">Button</div>
+                    <div class="my-4" id="Cards">Cards</div>
+
+                    <hr />
+
+                    <div class="mb-4" id="Image">
+                        <div class="p-2">
+                            <p class="big-heading">Image</p>
+                            <p class="normal-heading">Responsive image</p>
+                            <div class="demo-box mb-4">
+                                <img class="img-responsive" src="https://images.unsplash.com/photo-1529573813483-53bd9ede667e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1173&q=80" alt="img-responsive">
+                            </div>
+                            <div class="code-snippet-container mb-5">
+                                <code>
+                                    <iframe
+                                    class="iframe iframe-minHeight"
+                                    src="https://carbon.now.sh/embed?bg=rgba%28249%2C237%2C212%2C1%29&t=lucario&wt=sharp&l=htmlmixed&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=IBM+Plex+Mono&fs=14px&lh=143%25&si=false&es=2x&wm=false&code=%253Cimg%2520class%253D%2522img-responsive%2522%250A%2520%2520%2520%2520%2520src%253D%2522https%253A%252F%252Fimages.unsplash.com%252Fphoto-1529573813483-53bd9ede667e%253Fixlib%253Drb-1.2.1%2526ixid%253DMnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8%2526auto%253Dformat%2526fit%253Dcrop%2526w%253D1173%2526q%253D80%2522%250A%2520%2520%2520%2520%2520alt%253D%2522img-responsive%2522%250A%253E"
+                                    frameborder="0"
+                                    sandbox="allow-scripts allow-same-origin"
+                                    ></iframe>
+                                </code>
+                            </div>
+                            
+                            <p class="normal-heading">Rounded & Squared image</p>
+                            <div class="demo-box flex-row flex-align-center mb-4">
+                                <img class="img-rounded mr-2" src="https://images.unsplash.com/photo-1611605698335-8b1569810432?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1074&q=80" alt="img-rounded">
+                                <img class="img-squared ml-2" src="https://images.unsplash.com/photo-1614680376408-81e91ffe3db7?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1074&q=80" alt="img-squared">
+                            </div>
+                            <div class="code-snippet-container mb-5">
+                                <code>
+                                    <iframe
+                                        class="iframe iframe-minHeight"
+                                        src="https://carbon.now.sh/embed?bg=rgba%28249%2C237%2C212%2C1%29&t=lucario&wt=sharp&l=htmlmixed&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=IBM+Plex+Mono&fs=14px&lh=143%25&si=false&es=2x&wm=false&code=%253Cimg%2520class%253D%2522img-rounded%2520mr-2%2522%2520src%253D%2522https%253A%252F%252Fimages.unsplash.com%252Fphoto-1611605698335-8b1569810432%253Fixlib%253Drb-1.2.1%2526ixid%253DMnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8%2526auto%253Dformat%2526fit%253Dcrop%2526w%253D1074%2526q%253D80%2522%2520alt%253D%2522img-rounded%2522%253E%250A%250A%253Cimg%2520class%253D%2522img-squared%2520ml-2%2522%2520src%253D%2522https%253A%252F%252Fimages.unsplash.com%252Fphoto-1614680376408-81e91ffe3db7%253Fixlib%253Drb-1.2.1%2526ixid%253DMnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8%2526auto%253Dformat%2526fit%253Dcrop%2526w%253D1074%2526q%253D80%2522%2520alt%253D%2522img-squared%2522%253E"
+                                        frameborder="0"
+                                        sandbox="allow-scripts allow-same-origin"
+                                    ></iframe>
+                                </code>
+                            </div>
+                        </div>
+                    </div>
+
+                    <hr />
+                    
+                    <div class="my-4" id="Input">Input</div>
+                </section>
 
                 <section class="sidebar ml-2 p-4">
-                    <h2 class="mt-5">Components</h2>
+                    <h2 class="component mt-5">Components</h2>
                     <ul class="sidebar-links">
                         <li class="sidebar-link-item">
                             <a href="#Alerts">Alerts</a>
@@ -56,22 +94,13 @@
                         <li class="sidebar-link-item">
                             <a href="#Input">Input</a>
                         </li>
-                        <li class="sidebar-link-item">
-                            <a href="#Text">Text</a>
-                        </li>
                     </ul>
                 </section>
             </section>
         </main>
 
-        <script
-            type="module"
-            src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
-        ></script>
-        <script
-            nomodule
-            src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
-        ></script>
-        <script src="https://use.fontawesome.com/d5c66dd72e.js"></script>
+        <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+        <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+        <script src="../logics/main.js"></script>
     </body>
 </html>

@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700&display=swap');
 @import url('https://cdnjs.cloudflare.com/ajax/libs/ionicons/4.5.6/css/ionicons.min.css');
 
 * {
@@ -19,13 +19,14 @@ html {
 }
 
 body {
-    font-family: 'Nunito', sans-serif;
+    font-family: 'Lato', sans-serif;
     font-weight: 400;
     line-height: 1.6;
     font-size: 1.6rem;
     width: 100vw;
     height: 100vh;
-    /* padding: 1rem; */
+    letter-spacing: .05em;
+    position: relative;
     color: var(--color-primary);
     background-color: var(--color-background);
 }
@@ -34,17 +35,20 @@ body {
 
 .flex-row {
     display: flex;
-    /* justify-content: center;
-    align-items: center; */
-    /* flex-wrap: wrap; */
 }
 
 .flex-column {
     display: flex;
     flex-direction: column;
-    /* justify-content: center;
-    align-items: center; */
-    /* flex-wrap: wrap; */
+}
+
+.flex-align-end {
+    display: flex;
+    align-items: flex-end;
+}
+
+.flex-align-center {
+    align-items: center;
 }
 
 /* Grid Layout -----------------------------> */
@@ -454,4 +458,24 @@ h6,
 .py-5 {
     padding-top: calc(5 * var(--padding));
     padding-bottom: calc(5 * var(--padding));
+}
+
+/* position -----------------------------> */
+
+.relative {
+    position: relative;
+}
+
+.absolute {
+    position: absolute;
+}
+
+/* font sizes --------------------------> */
+
+font-1 {
+    font-size: calc(4 * var(--margin));
+}
+
+font-1-5 {
+    font-size: calc(6 * var(--margin));
 }
