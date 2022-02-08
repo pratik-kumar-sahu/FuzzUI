@@ -8,32 +8,81 @@
         <title>FuzzUI</title>
     </head>
     <body>
-        <main class="parent-container flex-column">
-            <section class="header m-4 p-4">
-                <div class="first"></div>
+        <main class="parent-container flex-column relative">
+            <section class="header p-4">
                 <h1 class="title">Fuzz UI</h1>
-                <div class="third"></div>
             </section>
             <section class="flex-row main-content mx-4">
                 <nav class="nav mr-2 flex-column flex-center">
-                    <a href="../index.html"
-                        ><ion-icon
-                            class="icon my-3"
-                            name="home-outline"
-                        ></ion-icon
-                    ></a>
-                    <a href="#"
-                        ><ion-icon
-                            class="icon my-3"
-                            name="document-text-outline"
-                        ></ion-icon
-                    ></a>
+                    <a href="../index.html"><ion-icon class="icon my-3" name="home-outline"></ion-icon></a>
+                    <a href="#"><ion-icon class="icon my-3" name="documents-outline"></ion-icon></a>
+                    <a href="#scrollOnTop"><ion-icon class="icon my-3" name="push-outline"></ion-icon></a>
                 </nav>
 
-                <section class="content2 mx-2 p-5 inner-shadow"></section>
+                <section class="content-docs mx-2 p-5 inner-shadow">
+                    <div id="scrollOnTop"></div>
+                    <div class="my-4" id="Alerts">Alerts</div>
+                    <div class="my-4" id="Avatar">Avatar</div>
+                    <div class="my-4" id="Badge">Badge</div>
+                    <div class="my-4" id="Button">Button</div>
+                    <div class="my-4" id="Cards">Cards</div>
+                    <div class="my-4" id="Image">Image</div>
+                    <div class="my-4" id="Input">Input</div>
+
+                    <hr />
+
+                    <div class="mb-4" id="TextUtilities">
+                        <div class="p-2">
+                            <p class="big-heading">Text Utilities</p>
+                            <p class="normal-heading">Example of Headings & Paragraphs</p>
+                            <div class="demo-box flex-column mb-4">
+                                <h1 class="h1">Example of H1 heading</h1>
+                                <h2 class="h2">Example of H2 heading</h2>
+                                <h3 class="h3">Example of H3 heading</h3>
+                                <h4 class="h4">Example of H4 heading</h4>
+                                <h5 class="h5">Example of H5 heading</h5>
+                                <p class="p">Example of a paragraph</p>
+                                <p class="big-heading">Example of Big Heading</p>
+                                <p class="normal-heading">Example of Normal Heading</p>
+                                <p class="small-heading">Example of Small Heading</p>
+                                <p class="gray">Example of Gray Heading</p>
+                            </div>
+                            <div class="code-snippet-container mb-5">
+                                <code>
+                                    <iframe
+                                    class="iframe iframe-minHeight"
+                                        src="https://carbon.now.sh/embed?bg=rgba%28249%2C237%2C212%2C1%29&t=lucario&wt=sharp&l=htmlmixed&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=IBM+Plex+Mono&fs=14px&lh=143%25&si=false&es=2x&wm=false&code=%253Ch1%2520class%253D%2522h1%2522%253EExample%2520of%2520H1%2520heading%253C%252Fh1%253E%250A%250A%253Ch2%2520class%253D%2522h2%2522%253EExample%2520of%2520H2%2520heading%253C%252Fh2%253E%250A%250A%253Ch3%2520class%253D%2522h3%2522%253EExample%2520of%2520H3%2520heading%253C%252Fh3%253E%250A%250A%253Ch4%2520class%253D%2522h4%2522%253EExample%2520of%2520H4%2520heading%253C%252Fh4%253E%250A%250A%253Ch5%2520class%253D%2522h5%2522%253EExample%2520of%2520H5%2520heading%253C%252Fh5%253E%250A%250A%253Cp%2520class%253D%2522p%2522%253EExample%2520of%2520a%2520paragraph%253C%252Fp%253E%250A%250A%253Cp%2520class%253D%2522big-heading%2522%253EExample%2520of%2520Big%2520Heading%253C%252Fp%253E%250A%250A%253Cp%2520class%253D%2522normal-heading%2522%253EExample%2520of%2520Normal%2520Heading%253C%252Fp%253E%250A%250A%253Cp%2520class%253D%2522small-heading%2522%253EExample%2520of%2520Small%2520Heading%253C%252Fp%253E%250A%250A%253Cp%2520class%253D%2522gray%2522%253EExample%2520of%2520Gray%2520Heading%253C%252Fp%253E"
+                                        frameborder="0"
+                                        sandbox="allow-scripts allow-same-origin"
+                                    ></iframe>
+                                </code>
+                            </div>
+
+                            <p class="normal-heading">Example of Text Alignment</p>
+                            <div class="demo-box flex-column mb-4">
+                                <p class="p txt-center">Example of center text</p>
+                                <p class="p txt-left">Example of left text</p>
+                                <p class="p txt-right">Example of right text</p>
+                            </div>
+                            <div class="code-snippet-container mb-5">
+                                <code>
+                                    <iframe
+                                        class="iframe iframe-minHeight"
+                                        src="https://carbon.now.sh/embed?bg=rgba%28249%2C237%2C212%2C1%29&t=lucario&wt=sharp&l=htmlmixed&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=IBM+Plex+Mono&fs=14px&lh=143%25&si=false&es=2x&wm=false&code=%253Cp%2520class%253D%2522p%2520txt-center%2522%253EExample%2520of%2520center%2520text%253C%252Fp%253E%250A%250A%253Cp%2520class%253D%2522p%2520txt-left%2522%253EExample%2520of%2520left%2520text%253C%252Fp%253E%250A%250A%253Cp%2520class%253D%2522p%2520txt-right%2522%253EExample%2520of%2520right%2520text%253C%252Fp%253E"
+                                        frameborder="0"
+                                        sandbox="allow-scripts allow-same-origin"
+                                    ></iframe>
+                                </code>
+                            </div>
+                        </div>
+                    </div>
+
+                    <hr />
+                    
+                </section>
 
                 <section class="sidebar ml-2 p-4">
-                    <h2 class="mt-5">Components</h2>
+                    <h2 class="component mt-5">Components</h2>
                     <ul class="sidebar-links">
                         <li class="sidebar-link-item">
                             <a href="#Alerts">Alerts</a>
@@ -57,21 +106,33 @@
                             <a href="#Input">Input</a>
                         </li>
                         <li class="sidebar-link-item">
-                            <a href="#Text">Text</a>
+                            <a href="#TextUtilities">Text Utilities</a>
+                        </li>
+                        <li class="sidebar-link-item">
+                            <a href="#Lists">Lists</a>
+                        </li>
+                        <li class="sidebar-link-item">
+                            <a href="#Navigation">Navigation</a>
+                        </li>
+                        <li class="sidebar-link-item">
+                            <a href="#Modal">Modal</a>
+                        </li>
+                        <li class="sidebar-link-item">
+                            <a href="#Rating">Rating (for eCommerce)</a>
+                        </li>
+                        <li class="sidebar-link-item">
+                            <a href="#Toast">Toast/Notify/Snackbar</a>
+                        </li>
+                        <li class="sidebar-link-item">
+                            <a href="#SimplifiedGrid">Simplified Grid</a>
                         </li>
                     </ul>
                 </section>
             </section>
         </main>
 
-        <script
-            type="module"
-            src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
-        ></script>
-        <script
-            nomodule
-            src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
-        ></script>
-        <script src="https://use.fontawesome.com/d5c66dd72e.js"></script>
+        <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+        <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+        <script src="../logics/main.js"></script>
     </body>
 </html>
