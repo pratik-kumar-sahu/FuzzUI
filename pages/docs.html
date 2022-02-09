@@ -8,32 +8,70 @@
         <title>FuzzUI</title>
     </head>
     <body>
-        <main class="parent-container flex-column">
-            <section class="header m-4 p-4">
-                <div class="first"></div>
+        <main class="parent-container flex-column relative">
+            <section class="header p-4">
                 <h1 class="title">Fuzz UI</h1>
-                <div class="third"></div>
             </section>
             <section class="flex-row main-content mx-4">
                 <nav class="nav mr-2 flex-column flex-center">
-                    <a href="../index.html"
-                        ><ion-icon
-                            class="icon my-3"
-                            name="home-outline"
-                        ></ion-icon
-                    ></a>
-                    <a href="#"
-                        ><ion-icon
-                            class="icon my-3"
-                            name="document-text-outline"
-                        ></ion-icon
-                    ></a>
+                    <a href="../index.html"><ion-icon class="icon my-3" name="home-outline"></ion-icon></a>
+                    <a href="#"><ion-icon class="icon my-3" name="documents-outline"></ion-icon></a>
+                    <a href="#scrollOnTop"><ion-icon class="icon my-3" name="push-outline"></ion-icon></a>
                 </nav>
 
-                <section class="content2 mx-2 p-5 inner-shadow"></section>
+                <section class="content-docs mx-2 p-5 inner-shadow">
+                    <div id="scrollOnTop"></div>
+                    <div class="my-4" id="Alerts">Alerts</div>
+                    <div class="my-4" id="Avatar">Avatar</div>
+                    <div class="my-4" id="Badge">Badge</div>
+                    <div class="my-4" id="Button">Button</div>
+                    <div class="my-4" id="Cards">Cards</div>
+                    <div class="my-4" id="Image">Image</div>
+                    <div class="my-4" id="Input">Input</div>
+                    <div class="my-4" id="TextUtilities">Text Utilities</div>
+                    <div class="my-4" id="Lists">Lists</div>
+
+                    <hr />
+
+                    <div class="mb-4" id="Navigation">
+                        <div class="p-2">
+                            <p class="big-heading">Navigation</p>
+                            <p class="normal-heading">Example of navigation bar</p>
+                            <div class="demo-box mb-4">
+                                <nav class="navigation-bar flex-row flex-align-center flex-justify-spaceBetween p-4">
+                                    <div class="flex-row flex-align-center">
+                                        <img class="img-rounded mx-4" src="https://images.unsplash.com/photo-1644371972225-4917efaa3958?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80" alt="logo">
+                                        <p class="small-heading ml-4"><strong>Mobiles</strong></p>
+                                        <p class="small-heading ml-4"><strong>Tablets</strong></p>
+                                        <p class="small-heading mx-4"><strong>Laptops</strong></p>
+                                    </div>
+                                    <div class="flex-row flex-align-center">
+                                        <input class="search" type="text" placeholder="Enter your search">
+                                        <ion-icon class="icon mx-3" name="heart"></ion-icon>
+                                        <ion-icon class="icon mr-3" name="cart"></ion-icon>
+                                        <ion-icon class="icon mr-3" name="person"></ion-icon>
+                                    </div>
+                                </nav>
+                            </div>
+                            <div class="code-snippet-container mb-5">
+                                <code>
+                                    <iframe
+                                    class="iframe iframe-minHeight"
+                                        src="https://carbon.now.sh/embed?bg=rgba%28249%2C237%2C212%2C1%29&t=lucario&wt=sharp&l=htmlmixed&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=IBM+Plex+Mono&fs=14px&lh=143%25&si=false&es=2x&wm=false&code=%253Cnav%2520class%253D%2522navigation-bar%2520flex-row%2520flex-align-center%2520flex-justify-spaceBetween%2520p-4%2522%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522flex-row%2520flex-align-center%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cimg%2520class%253D%2522img-rounded%2520mx-4%2522%2520src%253D%2522https%253A%252F%252Fimages.unsplash.com%252Fphoto-1644371972225-4917efaa3958%253Fixlib%253Drb-1.2.1%2526ixid%253DMnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8%2526auto%253Dformat%2526fit%253Dcrop%2526w%253D1170%2526q%253D80%2522%2520alt%253D%2522logo%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cp%2520class%253D%2522small-heading%2520ml-4%2522%253E%253Cstrong%253EMobiles%253C%252Fstrong%253E%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cp%2520class%253D%2522small-heading%2520ml-4%2522%253E%253Cstrong%253ETablets%253C%252Fstrong%253E%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cp%2520class%253D%2522small-heading%2520mx-4%2522%253E%253Cstrong%253ELaptops%253C%252Fstrong%253E%253C%252Fp%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522flex-row%2520flex-align-center%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cinput%2520class%253D%2522search%2522%2520type%253D%2522text%2522%2520placeholder%253D%2522Enter%2520your%2520search%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cion-icon%2520class%253D%2522icon%2520mx-3%2522%2520name%253D%2522heart%2522%253E%253C%252Fion-icon%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cion-icon%2520class%253D%2522icon%2520mr-3%2522%2520name%253D%2522cart%2522%253E%253C%252Fion-icon%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cion-icon%2520class%253D%2522icon%2520mr-3%2522%2520name%253D%2522person%2522%253E%253C%252Fion-icon%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%253C%252Fnav%253E"
+                                        frameborder="0"
+                                        sandbox="allow-scripts allow-same-origin"
+                                    ></iframe>
+                                </code>
+                            </div>
+                        </div>
+                    </div>
+
+                    <hr />
+                    
+                </section>
 
                 <section class="sidebar ml-2 p-4">
-                    <h2 class="mt-5">Components</h2>
+                    <h2 class="component mt-5">Components</h2>
                     <ul class="sidebar-links">
                         <li class="sidebar-link-item">
                             <a href="#Alerts">Alerts</a>
@@ -57,21 +95,33 @@
                             <a href="#Input">Input</a>
                         </li>
                         <li class="sidebar-link-item">
-                            <a href="#Text">Text</a>
+                            <a href="#TextUtilities">Text Utilities</a>
+                        </li>
+                        <li class="sidebar-link-item">
+                            <a href="#Lists">Lists</a>
+                        </li>
+                        <li class="sidebar-link-item">
+                            <a href="#Navigation">Navigation</a>
+                        </li>
+                        <li class="sidebar-link-item">
+                            <a href="#Modal">Modal</a>
+                        </li>
+                        <li class="sidebar-link-item">
+                            <a href="#Rating">Rating (for eCommerce)</a>
+                        </li>
+                        <li class="sidebar-link-item">
+                            <a href="#Toast">Toast/Notify/Snackbar</a>
+                        </li>
+                        <li class="sidebar-link-item">
+                            <a href="#SimplifiedGrid">Simplified Grid</a>
                         </li>
                     </ul>
                 </section>
             </section>
         </main>
 
-        <script
-            type="module"
-            src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
-        ></script>
-        <script
-            nomodule
-            src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
-        ></script>
-        <script src="https://use.fontawesome.com/d5c66dd72e.js"></script>
+        <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+        <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+        <script src="../logics/main.js"></script>
     </body>
 </html>
