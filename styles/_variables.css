@@ -19,6 +19,11 @@
     --warning-light: #fef08a;
     --info-light: #bae6fd;
 
+    --online: green;
+    --offline: var(--color-primary);
+    --away: #f59e0b;
+    --busy: red;
+
     /* Breakpoints for diff. screens */
     --breakpoint-xs: 48rem;
     --breakpoint-sm: 64rem;

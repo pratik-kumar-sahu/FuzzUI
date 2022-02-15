@@ -10,17 +10,17 @@
 }
 
 .badge-online {
-    background-color: green;
+    background-color: var(--online);
 }
 
 .badge-offline {
-    background-color: var(--color-primary);
+    background-color: var(--offline);
 }
 
 .badge-away {
-    background-color: #f59e0b;
+    background-color: var(--away);
 }
 
 .badge-busy {
-    background-color: red;
+    background-color: var(--busy);
 }
