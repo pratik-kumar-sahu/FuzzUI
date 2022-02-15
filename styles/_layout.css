@@ -41,6 +41,11 @@ body {
     flex-direction: column;
 }
 
+.flex-align-end {
+    display: flex;
+    align-items: flex-end;
+}
+
 /* Grid Layout -----------------------------> */
 
 .grid {

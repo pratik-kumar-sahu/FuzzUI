@@ -1,3 +1,4 @@
+@import './components/avatar.css';
 @import './components/alert.css';
 
 /* temporary styling ignore this -------------> */
@@ -127,6 +128,7 @@
     padding: 1rem;
     border: 1px solid var(--color-primary-dark);
     border-radius: 1rem;
+    overflow: hidden;
 }
 
 .code-container {
