@@ -13,19 +13,19 @@
 }
 
 .alert-success {
-    background-color: #bbf7d0;
+    background-color: var(--success-light);
 }
 
 .alert-danger {
-    background-color: #fecaca;
+    background-color: var(--danger-light);
 }
 
 .alert-warning {
-    background-color: #fef08a;
+    background-color: var(--warning-light);
 }
 
 .alert-info {
-    background-color: #bae6fd;
+    background-color: var(--info-light);
 }
 
 .alert-icon {
@@ -34,17 +34,17 @@
 }
 
 .success {
-    color: green;
+    color: var(--success);
 }
 
 .danger {
-    color: #dc2626;
+    color: var(--danger);
 }
 
 .warning {
-    color: #ca8a04;
+    color: var(--warning);
 }
 
 .info {
-    color: #0284c7;
+    color: var(--info);
 }
