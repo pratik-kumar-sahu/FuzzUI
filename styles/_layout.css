@@ -26,6 +26,7 @@ body {
     width: 100vw;
     height: 100vh;
     letter-spacing: .05em;
+    position: relative;
     color: var(--color-primary);
     background-color: var(--color-background);
 }
@@ -453,4 +454,24 @@ h6,
 .py-5 {
     padding-top: calc(5 * var(--padding));
     padding-bottom: calc(5 * var(--padding));
+}
+
+/* position -----------------------------> */
+
+.relative {
+    position: relative;
+}
+
+.absolute {
+    position: absolute;
+}
+
+/* font sizes --------------------------> */
+
+font-1 {
+    font-size: calc(4 * var(--margin));
+}
+
+font-1-5 {
+    font-size: calc(6 * var(--margin));
 }
