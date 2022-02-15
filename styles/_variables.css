@@ -3,10 +3,21 @@
     --color-primary-light: #f1f5f9;
     --color-primary: #64748b;
     --color-primary-dark: #0f172a;
-
+    
     --color-background: #f3f6fd;
     --color-white: #fff;
     --color-black: #000;
+    
+    /* Custom Colors */
+    --success: green;
+    --danger: #dc2626;
+    --warning: #ca8a04;
+    --info: #0284c7;
+
+    --success-light: #bbf7d0;
+    --danger-light: #fecaca;
+    --warning-light: #fef08a;
+    --info-light: #bae6fd;
 
     /* Breakpoints for diff. screens */
     --breakpoint-xs: 48rem;
@@ -19,4 +30,5 @@
     /* Layout */
     --margin: 0.25rem;
     --padding: 0.25rem;
+
 }
