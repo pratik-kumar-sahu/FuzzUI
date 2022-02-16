@@ -1,6 +1,7 @@
 .btn {
     font-size: 1.6rem;
     padding: 0.8rem 1.2rem;
+    margin: 0.5rem;
     outline-style: none;
     border-style: none;
     border-radius: 0.5rem;
@@ -32,22 +33,23 @@
 
 .btn-primary-solid {
     color: var(--color-white);
-    background-color: #0ea5e9;
+    background-color: var(--btn-primary-light);
 }
 
 .btn-primary-solid:hover {
-    background-color: #0d7caf;
+    background-color: var(--btn-primary-dark);
 }
 
 .btn-primary-outline {
-    color: #0ea5e9;
+    padding: 0.6rem 1.2rem;
+    color: var(--btn-primary-light);
     background-color: var(--color-white);
-    border: 2px solid #0ea5e9;
+    border: 2px solid var(--btn-primary-light);
 }
 
 .btn-primary-outline:hover {
     color: var(--color-white);
-    background-color: #0ea5e9;
+    background-color: var(--btn-primary-light);
 }
 
 .btn-secondary-solid {
@@ -56,10 +58,11 @@
 }
 
 .btn-secondary-solid:hover {
-    background-color: #94a3b8;
+    background-color: var(--btn-secondary-light);
 }
 
 .btn-secondary-outline {
+    padding: 0.6rem 1.2rem;
     color: var(--color-primary);
     background-color: var(--color-white);
     border: 2px solid var(--color-primary);
