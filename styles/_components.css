@@ -1,5 +1,6 @@
-@import "./components/image.css";
 @import "./components/button.css";
+@import "./components/input.css";
+@import "./components/image.css";
 @import "./components/card.css";
 @import './components/avatar.css';
 @import './components/badge.css';

@@ -297,7 +297,98 @@
 
                     <hr>
                     
-                    <div class="my-4" id="Input">Input</div>
+                    <div class="mb-4" id="Input">
+                        <div class="p-2">
+                            <p class="big-heading">Input</p>
+                            <p class="normal-heading">Example of Form Validation</p>
+                            <div class="demo-box mb-4">
+                                <div class="form-container">
+                                    <form onchange="checkForValidity()" class="form">
+                                        <div class="flex-row my-5">
+                                            <label class="form-label" for="name">Full Name <span class="red">*</span></label>
+                                            <input id="name" class="form-input" type="text" placeholder="Enter your name">
+                                        </div>
+                                        <div class="flex-row my-5">
+                                            <label class="form-label" for="name">Email <span class="red">*</span></label>
+                                            <input id="email" class="form-input" type="email" placeholder="Enter your email">
+                                        </div>
+                                        <div class="flex-row my-5">
+                                            <label class="form-label" for="name">Password <span class="red">*</span></label>
+                                            <input id="password" class="form-input" type="password" placeholder="Enter your password">
+                                        </div>
+                                        <div class="flex-row my-5">
+                                            <label class="form-label" for="name">Mobile Number <span class="red">*</span></label>
+                                            <input id="mobile" class="form-input" type="number" placeholder="Enter your mobile number">
+                                        </div>
+                                        <div class="flex-row my-5">
+                                            <label class="form-label" for="name">Birth Date <span class="red">*</span></label>
+                                            <input id="birthdate" class="form-input" type="date">
+                                        </div>
+                                        <div class="flex-row my-5">
+                                            <label class="form-label" for="name">Gender <span class="red">*</span></label>
+                                            <div class="radiobuttons">
+                                                <input type="radio" name="gender" id="choice1" value="male">
+                                                <label for="choice1">Male</label>
+
+                                                <input class="ml-4" type="radio" name="gender" id="choice2" value="female">
+                                                <label for="choice2">Female</label>
+                                            </div>
+                                        </div>
+                                        <div class="flex-row my-5">
+                                            <label class="form-label" for="name">Profession <span class="red">*</span></label>
+                                            <select class="form-input" name="profession" id="profession">
+                                                <option value="">None selected</option>
+                                                <option value="Student">Student</option>
+                                                <option value="Teacher">Teacher</option>
+                                                <option value="Engineer">Engineer</option>
+                                                <option value="Govt. Employee">Govt. Employee</option>
+                                            </select>
+                                        </div>
+                                        <div class="flex-row flex-align-center">
+                                            <input class="mr-2 checkbox" type="checkbox" name="terms" id="terms">
+                                            <label for="checkbox">I agree to all terms & conditions <span class="red">*</span></label>
+                                        </div>
+                                        <button id="submit" class="btn">Submit</button>
+                                        <p id="error" class="red">Please fill all the fields</p>
+                                    </form>
+                                </div>
+                            </div>
+                            <div class="code-snippet-container mb-5">
+                                <code>
+                                    <iframe
+                                    class="iframe iframe-minHeight"
+                                    src="https://carbon.now.sh/embed?bg=rgba%28249%2C237%2C212%2C1%29&t=lucario&wt=sharp&l=htmlmixed&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=IBM+Plex+Mono&fs=14px&lh=143%25&si=false&es=2x&wm=false&code=%253Cform%2520onchange%253D%2522checkForValidity%28%29%2522%2520class%253D%2522form%2522%253E%250A%2520%2520%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522flex-row%2520my-5%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Clabel%2520class%253D%2522form-label%2522%2520for%253D%2522name%2522%253EFull%2520Name%2520%253Cspan%2520class%253D%2522red%2522%253E*%253C%252Fspan%253E%253C%252Flabel%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cinput%2520id%253D%2522name%2522%2520class%253D%2522form-input%2522%2520type%253D%2522text%2522%2520placeholder%253D%2522Enter%2520your%2520name%2522%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522flex-row%2520my-5%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Clabel%2520class%253D%2522form-label%2522%2520for%253D%2522name%2522%253EEmail%2520%253Cspan%2520class%253D%2522red%2522%253E*%253C%252Fspan%253E%253C%252Flabel%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cinput%2520id%253D%2522email%2522%2520class%253D%2522form-input%2522%2520type%253D%2522email%2522%2520placeholder%253D%2522Enter%2520your%2520email%2522%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522flex-row%2520my-5%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Clabel%2520class%253D%2522form-label%2522%2520for%253D%2522name%2522%253EPassword%2520%253Cspan%2520class%253D%2522red%2522%253E*%253C%252Fspan%253E%253C%252Flabel%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cinput%2520id%253D%2522password%2522%2520class%253D%2522form-input%2522%2520type%253D%2522password%2522%2520placeholder%253D%2522Enter%2520your%2520password%2522%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522flex-row%2520my-5%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Clabel%2520class%253D%2522form-label%2522%2520for%253D%2522name%2522%253EMobile%2520Number%2520%253Cspan%2520class%253D%2522red%2522%253E*%253C%252Fspan%253E%253C%252Flabel%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cinput%2520id%253D%2522mobile%2522%2520class%253D%2522form-input%2522%2520type%253D%2522number%2522%2520placeholder%253D%2522Enter%2520your%2520mobile%2520number%2522%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522flex-row%2520my-5%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Clabel%2520class%253D%2522form-label%2522%2520for%253D%2522name%2522%253EBirth%2520Date%2520%253Cspan%2520class%253D%2522red%2522%253E*%253C%252Fspan%253E%253C%252Flabel%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cinput%2520id%253D%2522birthdate%2522%2520class%253D%2522form-input%2522%2520type%253D%2522date%2522%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E"
+                                    frameborder="0"
+                                    sandbox="allow-scripts allow-same-origin"
+                                    ></iframe>
+                                </code>
+                            </div>
+                            
+                            <div class="code-snippet-container mb-5">
+                                <code>
+                                    <iframe
+                                    class="iframe iframe-minHeight"
+                                    src="https://carbon.now.sh/embed?bg=rgba%28249%2C237%2C212%2C1%29&t=lucario&wt=sharp&l=htmlmixed&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=IBM+Plex+Mono&fs=14px&lh=143%25&si=false&es=2x&wm=false&code=%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522flex-row%2520my-5%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Clabel%2520class%253D%2522form-label%2522%2520for%253D%2522name%2522%253EGender%2520%253Cspan%2520class%253D%2522red%2522%253E*%253C%252Fspan%253E%253C%252Flabel%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522radiobuttons%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cinput%2520type%253D%2522radio%2522%2520name%253D%2522gender%2522%2520id%253D%2522choice1%2522%2520value%253D%2522male%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Clabel%2520for%253D%2522choice1%2522%253EMale%253C%252Flabel%253E%250A%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cinput%2520class%253D%2522ml-4%2522%2520type%253D%2522radio%2522%2520name%253D%2522gender%2522%2520id%253D%2522choice2%2522%2520value%253D%2522female%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Clabel%2520for%253D%2522choice2%2522%253EFemale%253C%252Flabel%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522flex-row%2520my-5%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Clabel%2520class%253D%2522form-label%2522%2520for%253D%2522name%2522%253EProfession%2520%253Cspan%2520class%253D%2522red%2522%253E*%253C%252Fspan%253E%253C%252Flabel%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cselect%2520class%253D%2522form-input%2522%2520name%253D%2522profession%2522%2520id%253D%2522profession%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Coption%2520value%253D%2522%2522%253ENone%2520selected%253C%252Foption%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Coption%2520value%253D%2522Student%2522%253EStudent%253C%252Foption%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Coption%2520value%253D%2522Teacher%2522%253ETeacher%253C%252Foption%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Coption%2520value%253D%2522Engineer%2522%253EEngineer%253C%252Foption%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Coption%2520value%253D%2522Govt.%2520Employee%2522%253EGovt.%2520Employee%253C%252Foption%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fselect%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522flex-row%2520flex-align-center%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cinput%2520class%253D%2522mr-2%2520checkbox%2522%2520type%253D%2522checkbox%2522%2520name%253D%2522terms%2522%2520id%253D%2522terms%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Clabel%2520for%253D%2522checkbox%2522%253EI%2520agree%2520to%2520all%2520terms%2520%2526%2520conditions%2520%253Cspan%2520class%253D%2522red%2522%253E*%253C%252Fspan%253E%253C%252Flabel%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%250A%2520%2520%2520%2520%253Cbutton%2520id%253D%2522submit%2522%2520class%253D%2522btn%2520mt-4%2522%253ESubmit%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%250A%2520%2520%2520%2520%253Cp%2520id%253D%2522error%2522%2520class%253D%2522red%2522%253EPlease%2520fill%2520all%2520the%2520fields%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%250A%253C%252Fform%253E"
+                                    frameborder="0"
+                                    sandbox="allow-scripts allow-same-origin"
+                                    ></iframe>
+                                </code>
+                            </div>
+
+                            <p class="my-2">Javascript Code</p>
+                            <div class="code-snippet-container mb-5">
+                                <code>
+                                    <iframe
+                                    class="iframe iframe-minHeight"
+                                    src="https://carbon.now.sh/embed?bg=rgba%28249%2C237%2C212%2C1%29&t=lucario&wt=sharp&l=htmlmixed&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=IBM+Plex+Mono&fs=14px&lh=143%25&si=false&es=2x&wm=false&code=const%2520name%2520%253D%2520document.querySelector%28%27%2523name%27%29%253B%250Aconst%2520email%2520%253D%2520document.querySelector%28%27%2523email%27%29%253B%250Aconst%2520password%2520%253D%2520document.querySelector%28%27%2523password%27%29%253B%250Aconst%2520mobile%2520%253D%2520document.querySelector%28%27%2523mobile%27%29%253B%250Aconst%2520birthdate%2520%253D%2520document.querySelector%28%27%2523birthdate%27%29%253B%250Aconst%2520choice1%2520%253D%2520document.querySelector%28%27%2523choice1%27%29%253B%250Aconst%2520choice2%2520%253D%2520document.querySelector%28%27%2523choice2%27%29%253B%250Aconst%2520profession%2520%253D%2520document.querySelector%28%27%2523profession%27%29%253B%250Aconst%2520terms%2520%253D%2520document.querySelector%28%27%2523terms%27%29%253B%250Aconst%2520errorMessage%2520%253D%2520document.querySelector%28%27%2523error%27%29%253B%250A%250Adocument.getElementById%28%27submit%27%29.disabled%2520%253D%2520true%253B%250AerrorMessage.style.display%2520%253D%2520%27none%27%253B%250A%250Aconst%2520checkForValidity%2520%253D%2520%28%29%2520%253D%253E%2520%257B%250A%2520%2520%2520%2520document.getElementById%28%27submit%27%29.disabled%2520%253D%2520true%253B%250A%2520%2520%2520%2520if%2520%28%255Bname%252C%2520email%252C%2520password%252C%2520mobile%252C%2520birthdate%252C%2520profession%255D.map%28%28e%29%2520%253D%253E%2520e.value.trim%28%29.length%29.includes%280%29%29%2520%257B%250A%2520%2520%2520%2520%2520%2520%2520%2520document.getElementById%28%27submit%27%29.disabled%2520%253D%2520true%253B%250A%2520%2520%2520%2520%2520%2520%2520%2520document.getElementById%28%27submit%27%29.classList.remove%28%27btn-primary-outline%27%29%253B%250A%2520%2520%2520%2520%2520%2520%2520%2520errorMessage.style.display%2520%253D%2520%27block%27%253B%250A%2520%2520%2520%2520%257D%2520else%2520if%2520%28%21%255Bname%252C%2520email%252C%2520password%252C%2520mobile%252C%2520birthdate%252C%2520profession%255D.map%28%28e%29%2520%253D%253E%2520e.value.trim%28%29.length%29.includes%280%29%29%2520%257B%250A%2520%2520%2520%2520%2520%2520%2520%2520if%2520%28%255Bchoice1.checked%252C%2520choice2.checked%255D.includes%28true%29%2520%2526%2526%2520terms.checked%29%2520%257B%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520document.getElementById%28%27submit%27%29.disabled%2520%253D%2520false%253B%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520document.getElementById%28%27submit%27%29.classList.add%28%27btn-primary-outline%27%29%253B%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520errorMessage.style.display%2520%253D%2520%27none%27%253B%250A%2520%2520%2520%2520%2520%2520%2520%2520%257D%2520else%2520%257B%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520document.getElementById%28%27submit%27%29.disabled%2520%253D%2520true%253B%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520document.getElementById%28%27submit%27%29.classList.remove%28%27btn-primary-outline%27%29%253B%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520errorMessage.style.display%2520%253D%2520%27block%27%253B%250A%2520%2520%2520%2520%2520%2520%2520%2520%257D%250A%2520%2520%2520%2520%257D%250A%257D%253B"
+                                    frameborder="0"
+                                    sandbox="allow-scripts allow-same-origin"
+                                    ></iframe>
+                                </code>
+                            </div>
+                            
+                        </div>
+                    </div>
                 </section>
 
                 <section class="sidebar ml-2 p-4">

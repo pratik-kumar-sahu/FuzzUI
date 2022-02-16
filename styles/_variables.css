@@ -27,6 +27,8 @@
     --btn-primary-dark: #0d7caf;
     --btn-primary-light: #0ea5e9;
     --btn-secondary-light: #94a3b8;
+    
+    --royalblue: royalblue;
 
     /* Breakpoints for diff. screens */
     --breakpoint-xs: 48rem;
@@ -39,5 +41,6 @@
     /* Layout */
     --margin: 0.25rem;
     --padding: 0.25rem;
+    --shadow: 1px 1px 10px rgba(0, 0, 0, 0.05), -0px -0px 10px rgba(0, 0, 0, 0.05);
 
 }
