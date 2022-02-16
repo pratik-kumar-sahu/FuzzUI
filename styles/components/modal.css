@@ -4,7 +4,7 @@
     margin: 0 auto;
     border-radius: 1rem;
     color: var(--color-white);
-    background-color: royalblue;
+    background-color: var(--royalblue);
 }
 
 .close-icon {

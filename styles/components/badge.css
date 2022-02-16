@@ -1,0 +1,26 @@
+.badge {
+    width: 1.2rem;
+    height: 1.2rem;
+    font-size: 1.2rem;
+    position: absolute;
+    top: -10%;
+    left: 66%;
+    border-radius: 50%;
+    border: 2px solid var(--color-white);
+}
+
+.badge-online {
+    background-color: var(--online);
+}
+
+.badge-offline {
+    background-color: var(--offline);
+}
+
+.badge-away {
+    background-color: var(--away);
+}
+
+.badge-busy {
+    background-color: var(--busy);
+}

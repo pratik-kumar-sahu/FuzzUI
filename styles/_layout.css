@@ -1,5 +1,4 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700&display=swap');
-@import url('https://cdnjs.cloudflare.com/ajax/libs/ionicons/4.5.6/css/ionicons.min.css');
 
 * {
     margin: 0;
@@ -25,7 +24,7 @@ body {
     font-size: 1.6rem;
     width: 100vw;
     height: 100vh;
-    letter-spacing: .05em;
+    letter-spacing: 0.05em;
     position: relative;
     color: var(--color-primary);
     background-color: var(--color-background);
@@ -55,12 +54,15 @@ body {
     justify-content: center;
 }
 
+.flex-justify-spaceBetween {
+    justify-content: space-between;
+}
+
 /* Grid Layout -----------------------------> */
 
 .grid {
     display: grid;
     gap: 1.5rem;
-    /* padding: 1.5rem; */
     overflow: hidden;
 }
 
@@ -152,7 +154,8 @@ h6,
     font-size: 1.25rem;
 }
 
-p, .p {
+p,
+.p {
     font-size: 1.6rem;
 }
 
@@ -235,7 +238,7 @@ p, .p {
 }
 
 .ml-4 {
-    margin-left: calc(4 * var(--margin));
+    margin-left: calc(4 * var(--margin)) !important;
 }
 
 .ml-5 {
@@ -251,7 +254,7 @@ p, .p {
 }
 
 .mr-3 {
-    margin-right: calc(3 * var(--margin));
+    margin-right: calc(3 * var(--margin)) !important;
 }
 
 .mr-4 {
@@ -273,13 +276,13 @@ p, .p {
 }
 
 .mx-3 {
-    margin-left: calc(3 * var(--margin));
-    margin-right: calc(3 * var(--margin));
+    margin-left: calc(3 * var(--margin)) !important;
+    margin-right: calc(3 * var(--margin)) !important;
 }
 
 .mx-4 {
-    margin-left: calc(4 * var(--margin));
-    margin-right: calc(4 * var(--margin));
+    margin-left: calc(4 * var(--margin)) !important;
+    margin-right: calc(4 * var(--margin)) !important;
 }
 
 .mx-5 {

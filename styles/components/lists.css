@@ -1,0 +1,48 @@
+.list-container {
+    padding: 1rem 1.5rem 1rem 1.5rem;
+    margin: 1rem;
+    background-color: var(--color-background);
+}
+
+.no-bullets {
+    list-style: none;
+}
+
+.rounded {
+    list-style-type: circle;
+    margin-left: 1.5rem;
+}
+
+.rounded-filled {
+    list-style-type: disc;
+    margin-left: 1.5rem;
+}
+
+.squared-filled {
+    list-style-type: square;
+    margin-left: 1.5rem;
+}
+
+.numbers {
+    margin-left: 1.5rem;
+}
+
+.alphabets-lower {
+    list-style-type: lower-alpha;
+    margin-left: 1.5rem;
+}
+
+.alphabets-upper {
+    list-style-type: upper-alpha;
+    margin-left: 1.5rem;
+}
+
+.roman-lower {
+    list-style-type: lower-roman;
+    margin-left: 1.5rem;
+}
+
+.roman-upper {
+    list-style-type: upper-roman;
+    margin-left: 1.5rem;
+}
