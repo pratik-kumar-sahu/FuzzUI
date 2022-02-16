@@ -21,17 +21,529 @@
 
                 <section class="content-docs mx-2 p-5 inner-shadow">
                     <div id="scrollOnTop"></div>
-                    <div class="my-4" id="Alerts">Alerts</div>
-                    <div class="my-4" id="Avatar">Avatar</div>
-                    <div class="my-4" id="Badge">Badge</div>
-                    <div class="my-4" id="Button">Button</div>
-                    <div class="my-4" id="Cards">Cards</div>
-                    <div class="my-4" id="Image">Image</div>
-                    <div class="my-4" id="Input">Input</div>
-                    <div class="my-4" id="TextUtilities">Text Utilities</div>
-                    <div class="my-4" id="Lists">Lists</div>
+                    <div class="mb-4" id="Alerts">
+                        <div class="alert-container p-2">
+                            <p class="big-heading">Alerts</p>
+                            <p class="normal-heading">Static Alerts</p>
+                            <div class="demo-box flex-column mb-4">
+                                <span class="alert alert-success mb-4"
+                                    ><ion-icon class="alert-icon success" name="checkbox"></ion-icon>A simple success
+                                    alert example</span
+                                >
+                                <span class="alert alert-danger mb-4"
+                                    ><ion-icon class="alert-icon danger" name="close-circle"></ion-icon>A simple danger
+                                    alert example</span
+                                >
+                                <span class="alert alert-warning mb-4"
+                                    ><ion-icon class="alert-icon warning" name="warning"></ion-icon>A simple warning
+                                    alert example</span
+                                >
+                                <span class="alert alert-info"
+                                    ><ion-icon class="alert-icon info" name="information-circle"></ion-icon>A simple
+                                    info alert example</span
+                                >
+                            </div>
+                            <div class="code-snippet-container">
+                                <code>
+                                    <iframe
+                                        class="iframe iframe-minHeight"
+                                        src="https://carbon.now.sh/embed?bg=rgba%28249%2C237%2C212%2C1%29&t=lucario&wt=sharp&l=htmlmixed&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=IBM+Plex+Mono&fs=14px&lh=143%25&si=false&es=2x&wm=false&code=%253Cspan%2520class%253D%2522alert%2520alert-success%2522%253E%250A%2509%253Cion-icon%2520class%253D%2522alert-icon%2520success%2522%2520name%253D%2522checkbox%2522%253E%253C%252Fion-icon%253E%250A%2520%2520%2520%2520A%2520simple%2520success%2520alert%2520example%250A%253C%252Fspan%253E%250A%253Cspan%2520class%253D%2522alert%2520alert-danger%2522%253E%250A%2509%253Cion-icon%2520class%253D%2522alert-icon%2520danger%2522%2520name%253D%2522close-circle%2522%253E%253C%252Fion-icon%253E%250A%2520%2520%2520%2520A%2520simple%2520danger%2520alert%2520example%250A%253C%252Fspan%253E%250A%253Cspan%2520class%253D%2522alert%2520alert-warning%2522%253E%250A%2509%253Cion-icon%2520class%253D%2522alert-icon%2520warning%2522%2520name%253D%2522warning%2522%253E%253C%252Fion-icon%253E%250A%2520%2520%2520%2520A%2520simple%2520warning%2520alert%2520example%250A%253C%252Fspan%253E%250A%253Cspan%2520class%253D%2522alert%2520alert-info%2522%253E%250A%2509%253Cion-icon%2520class%253D%2522alert-icon%2520info%2522%2520name%253D%2522information-circle%2522%253E%253C%252Fion-icon%253E%250A%2520%2520%2520%2520A%2520simple%2520info%2520alert%2520example%250A%253C%252Fspan%253E"
+                                        frameborder="0"
+                                        sandbox="allow-scripts allow-same-origin"
+                                    ></iframe>
+                                </code>
+                            </div>
+                        </div>
+                    </div>
 
-                    <hr />
+                    <hr>
+
+                    <div class="mb-4" id="Avatar">
+                        <div class="alert-container p-2">
+                            <p class="big-heading">Avatar</p>
+                            <p class="normal-heading">Rounded Avatars</p>
+                            <div class="demo-box flex-align-end mb-4">
+                                <img src="https://i.pravatar.cc/150?img=3" alt="avatar" class="avatar border-circle avatar-xl">
+                                <img src="https://i.pravatar.cc/150?img=3" alt="avatar" class="avatar border-circle avatar-l">
+                                <img src="https://i.pravatar.cc/150?img=3" alt="avatar" class="avatar border-circle avatar-md">
+                                <img src="https://i.pravatar.cc/150?img=3" alt="avatar" class="avatar border-circle avatar-sm">
+                                <img src="https://i.pravatar.cc/150?img=3" alt="avatar" class="avatar border-circle avatar-xs">
+                            </div>
+                            <div class="code-snippet-container mb-5">
+                                <code>
+                                    <iframe
+                                        class="iframe iframe-minHeight"
+                                        src="https://carbon.now.sh/embed?bg=rgba%28249%2C237%2C212%2C1%29&t=lucario&wt=sharp&l=htmlmixed&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=IBM+Plex+Mono&fs=14px&lh=143%25&si=false&es=2x&wm=false&code=%253Cimg%2520src%253D%2522https%253A%252F%252Fi.pravatar.cc%252F150%253Fimg%253D3%2522%2520alt%253D%2522avatar%2522%2520class%253D%2522avatar%2520img-rounded%2520avatar-xl%2522%253E%250A%253Cimg%2520src%253D%2522https%253A%252F%252Fi.pravatar.cc%252F150%253Fimg%253D3%2522%2520alt%253D%2522avatar%2522%2520class%253D%2522avatar%2520img-rounded%2520avatar-l%2522%253E%250A%253Cimg%2520src%253D%2522https%253A%252F%252Fi.pravatar.cc%252F150%253Fimg%253D3%2522%2520alt%253D%2522avatar%2522%2520class%253D%2522avatar%2520img-rounded%2520avatar-md%2522%253E%250A%253Cimg%2520src%253D%2522https%253A%252F%252Fi.pravatar.cc%252F150%253Fimg%253D3%2522%2520alt%253D%2522avatar%2522%2520class%253D%2522avatar%2520img-rounded%2520avatar-sm%2522%253E%250A%253Cimg%2520src%253D%2522https%253A%252F%252Fi.pravatar.cc%252F150%253Fimg%253D3%2522%2520alt%253D%2522avatar%2522%2520class%253D%2522avatar%2520img-rounded%2520avatar-xs%2522%253E"
+                                        frameborder="0"
+                                        sandbox="allow-scripts allow-same-origin"
+                                    ></iframe>
+                                </code>
+                            </div>
+
+                            <p class="normal-heading">Text Avatars</p>
+                            <div class="demo-box flex-align-end mb-4">
+                                <div role="img" class="avatar-text border-circle avatar-xl">PS</div>
+                                <div role="img" class="avatar-text border-circle avatar-l">PS</div>
+                                <div role="img" class="avatar-text border-circle avatar-md">PS</div>
+                                <div role="img" class="avatar-text border-circle avatar-sm">PS</div>
+                                <div role="img" class="avatar-text border-circle avatar-xs">PS</div>
+                            </div>
+                            <div class="code-snippet-container">
+                                <code>
+                                    <iframe
+                                        class="iframe iframe-minHeight"
+                                        src="https://carbon.now.sh/embed?bg=rgba%28249%2C237%2C212%2C1%29&t=lucario&wt=sharp&l=htmlmixed&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=IBM+Plex+Mono&fs=14px&lh=143%25&si=false&es=2x&wm=false&code=%253Cdiv%2520role%253D%2522img%2522%2520class%253D%2522avatar-text%2520img-rounded%2520avatar-xl%2522%253EPS%253C%252Fdiv%253E%250A%253Cdiv%2520role%253D%2522img%2522%2520class%253D%2522avatar-text%2520img-rounded%2520avatar-l%2522%253EPS%253C%252Fdiv%253E%250A%253Cdiv%2520role%253D%2522img%2522%2520class%253D%2522avatar-text%2520img-rounded%2520avatar-md%2522%253EPS%253C%252Fdiv%253E%250A%253Cdiv%2520role%253D%2522img%2522%2520class%253D%2522avatar-text%2520img-rounded%2520avatar-sm%2522%253EPS%253C%252Fdiv%253E%250A%253Cdiv%2520role%253D%2522img%2522%2520class%253D%2522avatar-text%2520img-rounded%2520avatar-xs%2522%253EPS%253C%252Fdiv%253E"
+                                        frameborder="0"
+                                        sandbox="allow-scripts allow-same-origin"
+                                    ></iframe>
+                                </code>
+                            </div>
+                        </div>
+                    </div>
+
+                    <hr>
+
+                    <div class="mb-4" id="Badge">
+                        <div class="p-2">
+                            <p class="big-heading">Badge</p>
+                            <p class="normal-heading">Badge on icons</p>
+                            <div class="demo-box mb-4">
+                                <span class="relative">
+                                    <img
+                                        src="https://i.pravatar.cc/150?img=12"
+                                        alt="avatar-with-badge"
+                                        class="avatar border-circle avatar-xl"
+                                    />
+                                    <span class="badge badge-online"></span>
+                                </span>
+                                <span class="relative">
+                                    <img
+                                        src="https://i.pravatar.cc/150?img=12"
+                                        alt="avatar-with-badge"
+                                        class="avatar border-circle avatar-l"
+                                    />
+                                    <span class="badge badge-offline"></span>
+                                </span>
+                                <span class="relative">
+                                    <img
+                                        src="https://i.pravatar.cc/150?img=12"
+                                        alt="avatar-with-badge"
+                                        class="avatar border-circle avatar-md"
+                                    />
+                                    <span class="badge badge-away"></span>
+                                </span>
+                                <span class="relative">
+                                    <img
+                                        src="https://i.pravatar.cc/150?img=12"
+                                        alt="avatar-with-badge"
+                                        class="avatar border-circle avatar-sm"
+                                    />
+                                    <span class="badge badge-busy"></span>
+                                </span>
+                            </div>
+                            <div class="code-snippet-container mb-5">
+                                <code>
+                                    <iframe
+                                        class="iframe iframe-minHeight"
+                                        src="https://carbon.now.sh/embed?bg=rgba%28249%2C237%2C212%2C1%29&t=lucario&wt=sharp&l=htmlmixed&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=IBM+Plex+Mono&fs=14px&lh=143%25&si=false&es=2x&wm=false&code=%253Cspan%2520class%253D%2522relative%2522%253E%250A%2520%2520%2520%2520%253Cimg%250A%2520%2520%2520%2520%2520%2520%2520%2520src%253D%2522https%253A%252F%252Fi.pravatar.cc%252F150%253Fimg%253D3%2522%250A%2520%2520%2520%2520%2520%2520%2520%2520alt%253D%2522avatar-with-badge%2522%250A%2520%2520%2520%2520%2520%2520%2520%2520class%253D%2522avatar%2520img-rounded%2520avatar-xl%2522%250A%2520%2520%2520%2520%252F%253E%250A%2520%2520%2520%2520%253Cspan%2520class%253D%2522badge%2520badge-online%2522%253E%253C%252Fspan%253E%250A%253C%252Fspan%253E%250A%253Cspan%2520class%253D%2522relative%2522%253E%250A%2520%2520%2520%2520%253Cimg%250A%2520%2520%2520%2520%2520%2520%2520%2520src%253D%2522https%253A%252F%252Fi.pravatar.cc%252F150%253Fimg%253D3%2522%250A%2520%2520%2520%2520%2520%2520%2520%2520alt%253D%2522avatar-with-badge%2522%250A%2520%2520%2520%2520%2520%2520%2520%2520class%253D%2522avatar%2520img-rounded%2520avatar-l%2522%250A%2520%2520%2520%2520%252F%253E%250A%2520%2520%2520%2520%253Cspan%2520class%253D%2522badge%2520badge-offline%2522%253E%253C%252Fspan%253E%250A%253C%252Fspan%253E%250A%253Cspan%2520class%253D%2522relative%2522%253E%250A%2520%2520%2520%2520%253Cimg%250A%2520%2520%2520%2520%2520%2520%2520%2520src%253D%2522https%253A%252F%252Fi.pravatar.cc%252F150%253Fimg%253D3%2522%250A%2520%2520%2520%2520%2520%2520%2520%2520alt%253D%2522avatar-with-badge%2522%250A%2520%2520%2520%2520%2520%2520%2520%2520class%253D%2522avatar%2520img-rounded%2520avatar-md%2522%250A%2520%2520%2520%2520%252F%253E%250A%2520%2520%2520%2520%253Cspan%2520class%253D%2522badge%2520badge-away%2522%253E%253C%252Fspan%253E%250A%253C%252Fspan%253E%250A%253Cspan%2520class%253D%2522relative%2522%253E%250A%2520%2520%2520%2520%253Cimg%250A%2520%2520%2520%2520%2520%2520%2520%2520src%253D%2522https%253A%252F%252Fi.pravatar.cc%252F150%253Fimg%253D3%2522%250A%2520%2520%2520%2520%2520%2520%2520%2520alt%253D%2522avatar-with-badge%2522%250A%2520%2520%2520%2520%2520%2520%2520%2520class%253D%2522avatar%2520img-rounded%2520avatar-sm%2522%250A%2520%2520%2520%2520%252F%253E%250A%2520%2520%2520%2520%253Cspan%2520class%253D%2522badge%2520badge-busy%2522%253E%253C%252Fspan%253E%250A%253C%252Fspan%253E"
+                                        frameborder="0"
+                                        sandbox="allow-scripts allow-same-origin"
+                                    ></iframe>
+                                </code>
+                            </div>
+                        </div>
+                    </div>
+
+                    <hr>
+                    
+                    <div class="mb-4" id="Button">
+                        <div class="p-2">
+                            <p class="big-heading">Button</p>
+                            <p class="normal-heading">Example of Buttons</p>
+                            <div class="demo-box flex-row flex-align-center mb-4">
+                                <button class="btn btn-primary-solid">Primary</button>
+                                <button class="btn btn-secondary-solid">Secondary</button>
+                                <button class="btn btn-primary-outline">Primary</button>
+                                <button class="btn btn-secondary-outline">Secondary</button>
+                                <ion-icon class="btn-logo mx-1" name="logo-linkedin"></ion-icon>
+                                <p class="btn-txt">TextButton</p>
+                                <button class="btn btn-icon btn-primary-solid">
+                                    <ion-icon class="mr-2" name="logo-react"></ion-icon>React
+                                </button>
+                                <button class="btn btn-icon btn-primary-solid btn-floating">
+                                    <ion-icon class="mr-2" name="logo-discord"></ion-icon>Discord
+                                </button>
+                            </div>
+                            <div class="code-snippet-container mb-5">
+                                <code>
+                                    <iframe
+                                        class="iframe iframe-minHeight"
+                                        src="https://carbon.now.sh/embed?bg=rgba%28249%2C237%2C212%2C1%29&t=lucario&wt=sharp&l=htmlmixed&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=IBM+Plex+Mono&fs=14px&lh=143%25&si=false&es=2x&wm=false&code=%253Cbutton%2520class%253D%2522btn%2520btn-primary-solid%2522%253EPrimary%253C%252Fbutton%253E%250A%253Cbutton%2520class%253D%2522btn%2520btn-secondary-solid%2522%253ESecondary%253C%252Fbutton%253E%250A%253Cbutton%2520class%253D%2522btn%2520btn-primary-outline%2522%253EPrimary%253C%252Fbutton%253E%250A%253Cbutton%2520class%253D%2522btn%2520btn-secondary-outline%2522%253ESecondary%253C%252Fbutton%253E%250A%253Cion-icon%2520class%253D%2522btn-logo%2522%2520name%253D%2522logo-linkedin%2522%253E%253C%252Fion-icon%253E%250A%253Cp%2520class%253D%2522btn-txt%2522%253ETextButton%253C%252Fp%253E%250A%253Cbutton%2520class%253D%2522btn%2520btn-icon%2520btn-primary-solid%2522%253E%250A%2520%2520%2520%2520%253Cion-icon%2520class%253D%2522mr-2%2522%2520name%253D%2522logo-react%2522%253E%253C%252Fion-icon%253EReact%250A%253C%252Fbutton%253E%250A%253Cbutton%2520class%253D%2522btn%2520btn-icon%2520btn-primary-solid%2520btn-floating%2522%253E%250A%2520%2520%2520%2520%253Cion-icon%2520class%253D%2522mr-2%2522%2520name%253D%2522logo-discord%2522%253E%253C%252Fion-icon%253EDiscord%250A%253C%252Fbutton%253E"
+                                        frameborder="0"
+                                        sandbox="allow-scripts allow-same-origin"
+                                    ></iframe>
+                                </code>
+                            </div>
+                        </div>
+                    </div>
+
+                    <hr>
+
+                    <div class="mb-4" id="Cards">
+                        <div class="p-2">
+                            <p class="big-heading">Cards</p>
+                            <p class="normal-heading">Example of Cards</p>
+                            <div class="demo-box flex-row mb-4">
+                                <div id="sectionClass" class="section">
+                                    <img
+                                        id="imageClass"
+                                        class="image"
+                                        src="https://images.unsplash.com/photo-1444703686981-a3abbc4d4fe3?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80"
+                                        alt="sky"
+                                    />
+                                    <div id="contentClass" class="content">
+                                        <p id="headingClass" class="heading">Our Changing Planet</p>
+                                        <p class="author">by Kurt Wagner</p>
+                                    </div>
+                                    <p id="paraClass" class="para">
+                                        Visit ten places on our planet that are undergoing the biggest changes today.
+                                    </p>
+                                    <div class="buttons">
+                                        <div>
+                                            <button class="btn btn-primary-solid">Read</button>
+                                            <button class="btn btn-primary-outline">Bookmark</button>
+                                        </div>
+                                        <ion-icon class="card-icon" name="heart-outline"></ion-icon>
+                                        <ion-icon class="card-icon" name="share-social-outline"></ion-icon>
+                                        <ion-icon class="card-icon" name="ellipsis-vertical-outline"></ion-icon>
+                                    </div>
+                                </div>
+
+                                <div id="sectionClass" class="section section1">
+                                    <img
+                                        id="imageClass"
+                                        class="image image1"
+                                        src="https://images.unsplash.com/photo-1444703686981-a3abbc4d4fe3?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80"
+                                        alt="sky"
+                                    />
+                                    <div id="contentClass" class="content content1">
+                                        <p id="headingClass" class="heading heading1">Our Changing Planet</p>
+                                        <p class="author">by Kurt Wagner</p>
+                                    </div>
+                                    <p id="paraClass" class="para">
+                                        Visit ten places on our planet that are undergoing the biggest changes today.
+                                    </p>
+                                    <div class="buttons">
+                                        <div>
+                                            <button class="btn btn-primary-solid">Read</button>
+                                            <button class="btn btn-primary-outline">Bookmark</button>
+                                        </div>
+                                        <ion-icon class="card-icon" name="heart-outline"></ion-icon>
+                                        <ion-icon class="card-icon" name="share-social-outline"></ion-icon>
+                                        <ion-icon class="card-icon" name="ellipsis-vertical-outline"></ion-icon>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="code-snippet-container mb-5">
+                                <code>
+                                    <iframe
+                                        class="iframe iframe-minHeight"
+                                        src="https://carbon.now.sh/embed?bg=rgba%28249%2C237%2C212%2C1%29&t=lucario&wt=sharp&l=htmlmixed&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=IBM+Plex+Mono&fs=14px&lh=143%25&si=false&es=2x&wm=false&code=%253Cdiv%2520id%253D%2522sectionClass%2522%2520class%253D%2522section%2522%253E%250A%2520%2520%2520%2520%253Cimg%250A%2520%2520%2520%2520%2520%2520%2520%2520id%253D%2522imageClass%2522%250A%2520%2520%2520%2520%2520%2520%2520%2520class%253D%2522image%2522%250A%2520%2520%2520%2520%2520%2520%2520%2520src%253D%2522https%253A%252F%252Fimages.unsplash.com%252Fphoto-1444703686981-a3abbc4d4fe3%253Fixlib%253Drb-1.2.1%2526ixid%253DMnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8%2526auto%253Dformat%2526fit%253Dcrop%2526w%253D870%2526q%253D80%2522%250A%2520%2520%2520%2520%2520%2520%2520%2520alt%253D%2522sky%2522%250A%2520%2520%2520%2520%252F%253E%250A%2520%2520%2520%2520%253Cdiv%2520id%253D%2522contentClass%2522%2520class%253D%2522content%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cp%2520id%253D%2522headingClass%2522%2520class%253D%2522heading%2522%253EOur%2520Changing%2520Planet%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cp%2520class%253D%2522author%2522%253Eby%2520Kurt%2520Wagner%253C%252Fp%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253Cp%2520id%253D%2522paraClass%2522%2520class%253D%2522para%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520Visit%2520ten%2520places%2520on%2520our%2520planet%2520that%2520are%2520undergoing%2520the%2520biggest%2520changes%2520today.%250A%2520%2520%2520%2520%253C%252Fp%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522buttons%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522btn%2520btn-primary-solid%2522%253ERead%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522btn%2520btn-primary-outline%2522%253EBookmark%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cion-icon%2520class%253D%2522icon%2522%2520name%253D%2522heart-outline%2522%253E%253C%252Fion-icon%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cion-icon%2520class%253D%2522icon%2522%2520name%253D%2522share-social-outline%2522%253E%253C%252Fion-icon%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cion-icon%2520class%253D%2522icon%2522%2520name%253D%2522ellipsis-vertical-outline%2522%253E%253C%252Fion-icon%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%253C%252Fdiv%253E%250A%250A%253Cdiv%2520id%253D%2522sectionClass%2522%2520class%253D%2522section%2520section1%2522%253E%250A%2520%2520%2520%2520%253Cimg%250A%2520%2520%2520%2520%2520%2520%2520%2520id%253D%2522imageClass%2522%250A%2520%2520%2520%2520%2520%2520%2520%2520class%253D%2522image%2520image1%2522%250A%2520%2520%2520%2520%2520%2520%2520%2520src%253D%2522https%253A%252F%252Fimages.unsplash.com%252Fphoto-1444703686981-a3abbc4d4fe3%253Fixlib%253Drb-1.2.1%2526ixid%253DMnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8%2526auto%253Dformat%2526fit%253Dcrop%2526w%253D870%2526q%253D80%2522%250A%2520%2520%2520%2520%2520%2520%2520%2520alt%253D%2522sky%2522%250A%2520%2520%2520%2520%252F%253E%250A%2520%2520%2520%2520%253Cdiv%2520id%253D%2522contentClass%2522%2520class%253D%2522content%2520content1%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cp%2520id%253D%2522headingClass%2522%2520class%253D%2522heading%2520heading1%2522%253EOur%2520Changing%2520Planet%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cp%2520class%253D%2522author%2522%253Eby%2520Kurt%2520Wagner%253C%252Fp%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253Cp%2520id%253D%2522paraClass%2522%2520class%253D%2522para%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520Visit%2520ten%2520places%2520on%2520our%2520planet%2520that%2520are%2520undergoing%2520the%2520biggest%2520changes%2520today.%250A%2520%2520%2520%2520%253C%252Fp%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522buttons%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522btn%2520btn-primary-solid%2522%253ERead%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522btn%2520btn-primary-outline%2522%253EBookmark%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cion-icon%2520class%253D%2522icon%2522%2520name%253D%2522heart-outline%2522%253E%253C%252Fion-icon%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cion-icon%2520class%253D%2522icon%2522%2520name%253D%2522share-social-outline%2522%253E%253C%252Fion-icon%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cion-icon%2520class%253D%2522icon%2522%2520name%253D%2522ellipsis-vertical-outline%2522%253E%253C%252Fion-icon%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%253C%252Fdiv%253E"
+                                        frameborder="0"
+                                        sandbox="allow-scripts allow-same-origin"
+                                    ></iframe>
+                                </code>
+                            </div>
+                        </div>
+                    </div>
+
+                    <hr>
+
+                    <div class="mb-4" id="Image">
+                        <div class="p-2">
+                            <p class="big-heading">Image</p>
+                            <p class="normal-heading">Responsive image</p>
+                            <div class="demo-box mb-4">
+                                <img class="img-responsive" src="https://images.unsplash.com/photo-1529573813483-53bd9ede667e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1173&q=80" alt="img-responsive">
+                            </div>
+                            <div class="code-snippet-container mb-5">
+                                <code>
+                                    <iframe
+                                    class="iframe iframe-minHeight"
+                                    src="https://carbon.now.sh/embed?bg=rgba%28249%2C237%2C212%2C1%29&t=lucario&wt=sharp&l=htmlmixed&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=IBM+Plex+Mono&fs=14px&lh=143%25&si=false&es=2x&wm=false&code=%253Cimg%2520class%253D%2522img-responsive%2522%250A%2520%2520%2520%2520%2520src%253D%2522https%253A%252F%252Fimages.unsplash.com%252Fphoto-1529573813483-53bd9ede667e%253Fixlib%253Drb-1.2.1%2526ixid%253DMnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8%2526auto%253Dformat%2526fit%253Dcrop%2526w%253D1173%2526q%253D80%2522%250A%2520%2520%2520%2520%2520alt%253D%2522img-responsive%2522%250A%253E"
+                                    frameborder="0"
+                                    sandbox="allow-scripts allow-same-origin"
+                                    ></iframe>
+                                </code>
+                            </div>
+                            
+                            <p class="normal-heading">Rounded & Squared image</p>
+                            <div class="demo-box flex-row flex-align-center mb-4">
+                                <img class="img-rounded mr-2" src="https://images.unsplash.com/photo-1611605698335-8b1569810432?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1074&q=80" alt="img-rounded">
+                                <img class="img-squared ml-2" src="https://images.unsplash.com/photo-1614680376408-81e91ffe3db7?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1074&q=80" alt="img-squared">
+                            </div>
+                            <div class="code-snippet-container mb-5">
+                                <code>
+                                    <iframe
+                                        class="iframe iframe-minHeight"
+                                        src="https://carbon.now.sh/embed?bg=rgba%28249%2C237%2C212%2C1%29&t=lucario&wt=sharp&l=htmlmixed&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=IBM+Plex+Mono&fs=14px&lh=143%25&si=false&es=2x&wm=false&code=%253Cimg%2520class%253D%2522img-rounded%2520mr-2%2522%2520src%253D%2522https%253A%252F%252Fimages.unsplash.com%252Fphoto-1611605698335-8b1569810432%253Fixlib%253Drb-1.2.1%2526ixid%253DMnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8%2526auto%253Dformat%2526fit%253Dcrop%2526w%253D1074%2526q%253D80%2522%2520alt%253D%2522img-rounded%2522%253E%250A%250A%253Cimg%2520class%253D%2522img-squared%2520ml-2%2522%2520src%253D%2522https%253A%252F%252Fimages.unsplash.com%252Fphoto-1614680376408-81e91ffe3db7%253Fixlib%253Drb-1.2.1%2526ixid%253DMnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8%2526auto%253Dformat%2526fit%253Dcrop%2526w%253D1074%2526q%253D80%2522%2520alt%253D%2522img-squared%2522%253E"
+                                        frameborder="0"
+                                        sandbox="allow-scripts allow-same-origin"
+                                    ></iframe>
+                                </code>
+                            </div>
+                        </div>
+                    </div>
+
+                    <hr>
+                    
+                    <div class="mb-4" id="Input">
+                        <div class="p-2">
+                            <p class="big-heading">Input</p>
+                            <p class="normal-heading">Example of Form Validation</p>
+                            <div class="demo-box mb-4">
+                                <div class="form-container">
+                                    <form onchange="checkForValidity()" class="form">
+                                        <div class="flex-row my-5">
+                                            <label class="form-label" for="name">Full Name <span class="red">*</span></label>
+                                            <input id="name" class="form-input" type="text" placeholder="Enter your name">
+                                        </div>
+                                        <div class="flex-row my-5">
+                                            <label class="form-label" for="name">Email <span class="red">*</span></label>
+                                            <input id="email" class="form-input" type="email" placeholder="Enter your email">
+                                        </div>
+                                        <div class="flex-row my-5">
+                                            <label class="form-label" for="name">Password <span class="red">*</span></label>
+                                            <input id="password" class="form-input" type="password" placeholder="Enter your password">
+                                        </div>
+                                        <div class="flex-row my-5">
+                                            <label class="form-label" for="name">Mobile Number <span class="red">*</span></label>
+                                            <input id="mobile" class="form-input" type="number" placeholder="Enter your mobile number">
+                                        </div>
+                                        <div class="flex-row my-5">
+                                            <label class="form-label" for="name">Birth Date <span class="red">*</span></label>
+                                            <input id="birthdate" class="form-input" type="date">
+                                        </div>
+                                        <div class="flex-row my-5">
+                                            <label class="form-label" for="name">Gender <span class="red">*</span></label>
+                                            <div class="radiobuttons">
+                                                <input type="radio" name="gender" id="choice1" value="male">
+                                                <label for="choice1">Male</label>
+
+                                                <input class="ml-4" type="radio" name="gender" id="choice2" value="female">
+                                                <label for="choice2">Female</label>
+                                            </div>
+                                        </div>
+                                        <div class="flex-row my-5">
+                                            <label class="form-label" for="name">Profession <span class="red">*</span></label>
+                                            <select class="form-input" name="profession" id="profession">
+                                                <option value="">None selected</option>
+                                                <option value="Student">Student</option>
+                                                <option value="Teacher">Teacher</option>
+                                                <option value="Engineer">Engineer</option>
+                                                <option value="Govt. Employee">Govt. Employee</option>
+                                            </select>
+                                        </div>
+                                        <div class="flex-row flex-align-center">
+                                            <input class="mr-2 checkbox" type="checkbox" name="terms" id="terms">
+                                            <label for="checkbox">I agree to all terms & conditions <span class="red">*</span></label>
+                                        </div>
+                                        <button id="submit" class="btn">Submit</button>
+                                        <p id="error" class="red">Please fill all the fields</p>
+                                    </form>
+                                </div>
+                            </div>
+                            <div class="code-snippet-container mb-5">
+                                <code>
+                                    <iframe
+                                    class="iframe iframe-minHeight"
+                                    src="https://carbon.now.sh/embed?bg=rgba%28249%2C237%2C212%2C1%29&t=lucario&wt=sharp&l=htmlmixed&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=IBM+Plex+Mono&fs=14px&lh=143%25&si=false&es=2x&wm=false&code=%253Cform%2520onchange%253D%2522checkForValidity%28%29%2522%2520class%253D%2522form%2522%253E%250A%2520%2520%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522flex-row%2520my-5%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Clabel%2520class%253D%2522form-label%2522%2520for%253D%2522name%2522%253EFull%2520Name%2520%253Cspan%2520class%253D%2522red%2522%253E*%253C%252Fspan%253E%253C%252Flabel%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cinput%2520id%253D%2522name%2522%2520class%253D%2522form-input%2522%2520type%253D%2522text%2522%2520placeholder%253D%2522Enter%2520your%2520name%2522%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522flex-row%2520my-5%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Clabel%2520class%253D%2522form-label%2522%2520for%253D%2522name%2522%253EEmail%2520%253Cspan%2520class%253D%2522red%2522%253E*%253C%252Fspan%253E%253C%252Flabel%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cinput%2520id%253D%2522email%2522%2520class%253D%2522form-input%2522%2520type%253D%2522email%2522%2520placeholder%253D%2522Enter%2520your%2520email%2522%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522flex-row%2520my-5%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Clabel%2520class%253D%2522form-label%2522%2520for%253D%2522name%2522%253EPassword%2520%253Cspan%2520class%253D%2522red%2522%253E*%253C%252Fspan%253E%253C%252Flabel%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cinput%2520id%253D%2522password%2522%2520class%253D%2522form-input%2522%2520type%253D%2522password%2522%2520placeholder%253D%2522Enter%2520your%2520password%2522%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522flex-row%2520my-5%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Clabel%2520class%253D%2522form-label%2522%2520for%253D%2522name%2522%253EMobile%2520Number%2520%253Cspan%2520class%253D%2522red%2522%253E*%253C%252Fspan%253E%253C%252Flabel%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cinput%2520id%253D%2522mobile%2522%2520class%253D%2522form-input%2522%2520type%253D%2522number%2522%2520placeholder%253D%2522Enter%2520your%2520mobile%2520number%2522%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522flex-row%2520my-5%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Clabel%2520class%253D%2522form-label%2522%2520for%253D%2522name%2522%253EBirth%2520Date%2520%253Cspan%2520class%253D%2522red%2522%253E*%253C%252Fspan%253E%253C%252Flabel%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cinput%2520id%253D%2522birthdate%2522%2520class%253D%2522form-input%2522%2520type%253D%2522date%2522%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E"
+                                    frameborder="0"
+                                    sandbox="allow-scripts allow-same-origin"
+                                    ></iframe>
+                                </code>
+                            </div>
+                            
+                            <div class="code-snippet-container mb-5">
+                                <code>
+                                    <iframe
+                                    class="iframe iframe-minHeight"
+                                    src="https://carbon.now.sh/embed?bg=rgba%28249%2C237%2C212%2C1%29&t=lucario&wt=sharp&l=htmlmixed&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=IBM+Plex+Mono&fs=14px&lh=143%25&si=false&es=2x&wm=false&code=%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522flex-row%2520my-5%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Clabel%2520class%253D%2522form-label%2522%2520for%253D%2522name%2522%253EGender%2520%253Cspan%2520class%253D%2522red%2522%253E*%253C%252Fspan%253E%253C%252Flabel%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522radiobuttons%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cinput%2520type%253D%2522radio%2522%2520name%253D%2522gender%2522%2520id%253D%2522choice1%2522%2520value%253D%2522male%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Clabel%2520for%253D%2522choice1%2522%253EMale%253C%252Flabel%253E%250A%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cinput%2520class%253D%2522ml-4%2522%2520type%253D%2522radio%2522%2520name%253D%2522gender%2522%2520id%253D%2522choice2%2522%2520value%253D%2522female%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Clabel%2520for%253D%2522choice2%2522%253EFemale%253C%252Flabel%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522flex-row%2520my-5%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Clabel%2520class%253D%2522form-label%2522%2520for%253D%2522name%2522%253EProfession%2520%253Cspan%2520class%253D%2522red%2522%253E*%253C%252Fspan%253E%253C%252Flabel%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cselect%2520class%253D%2522form-input%2522%2520name%253D%2522profession%2522%2520id%253D%2522profession%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Coption%2520value%253D%2522%2522%253ENone%2520selected%253C%252Foption%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Coption%2520value%253D%2522Student%2522%253EStudent%253C%252Foption%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Coption%2520value%253D%2522Teacher%2522%253ETeacher%253C%252Foption%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Coption%2520value%253D%2522Engineer%2522%253EEngineer%253C%252Foption%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Coption%2520value%253D%2522Govt.%2520Employee%2522%253EGovt.%2520Employee%253C%252Foption%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fselect%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522flex-row%2520flex-align-center%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cinput%2520class%253D%2522mr-2%2520checkbox%2522%2520type%253D%2522checkbox%2522%2520name%253D%2522terms%2522%2520id%253D%2522terms%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Clabel%2520for%253D%2522checkbox%2522%253EI%2520agree%2520to%2520all%2520terms%2520%2526%2520conditions%2520%253Cspan%2520class%253D%2522red%2522%253E*%253C%252Fspan%253E%253C%252Flabel%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%250A%2520%2520%2520%2520%253Cbutton%2520id%253D%2522submit%2522%2520class%253D%2522btn%2520mt-4%2522%253ESubmit%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%250A%2520%2520%2520%2520%253Cp%2520id%253D%2522error%2522%2520class%253D%2522red%2522%253EPlease%2520fill%2520all%2520the%2520fields%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%250A%253C%252Fform%253E"
+                                    frameborder="0"
+                                    sandbox="allow-scripts allow-same-origin"
+                                    ></iframe>
+                                </code>
+                            </div>
+
+                            <p class="my-2">Javascript Code</p>
+                            <div class="code-snippet-container mb-5">
+                                <code>
+                                    <iframe
+                                    class="iframe iframe-minHeight"
+                                    src="https://carbon.now.sh/embed?bg=rgba%28249%2C237%2C212%2C1%29&t=lucario&wt=sharp&l=htmlmixed&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=IBM+Plex+Mono&fs=14px&lh=143%25&si=false&es=2x&wm=false&code=const%2520name%2520%253D%2520document.querySelector%28%27%2523name%27%29%253B%250Aconst%2520email%2520%253D%2520document.querySelector%28%27%2523email%27%29%253B%250Aconst%2520password%2520%253D%2520document.querySelector%28%27%2523password%27%29%253B%250Aconst%2520mobile%2520%253D%2520document.querySelector%28%27%2523mobile%27%29%253B%250Aconst%2520birthdate%2520%253D%2520document.querySelector%28%27%2523birthdate%27%29%253B%250Aconst%2520choice1%2520%253D%2520document.querySelector%28%27%2523choice1%27%29%253B%250Aconst%2520choice2%2520%253D%2520document.querySelector%28%27%2523choice2%27%29%253B%250Aconst%2520profession%2520%253D%2520document.querySelector%28%27%2523profession%27%29%253B%250Aconst%2520terms%2520%253D%2520document.querySelector%28%27%2523terms%27%29%253B%250Aconst%2520errorMessage%2520%253D%2520document.querySelector%28%27%2523error%27%29%253B%250A%250Adocument.getElementById%28%27submit%27%29.disabled%2520%253D%2520true%253B%250AerrorMessage.style.display%2520%253D%2520%27none%27%253B%250A%250Aconst%2520checkForValidity%2520%253D%2520%28%29%2520%253D%253E%2520%257B%250A%2520%2520%2520%2520document.getElementById%28%27submit%27%29.disabled%2520%253D%2520true%253B%250A%2520%2520%2520%2520if%2520%28%255Bname%252C%2520email%252C%2520password%252C%2520mobile%252C%2520birthdate%252C%2520profession%255D.map%28%28e%29%2520%253D%253E%2520e.value.trim%28%29.length%29.includes%280%29%29%2520%257B%250A%2520%2520%2520%2520%2520%2520%2520%2520document.getElementById%28%27submit%27%29.disabled%2520%253D%2520true%253B%250A%2520%2520%2520%2520%2520%2520%2520%2520document.getElementById%28%27submit%27%29.classList.remove%28%27btn-primary-outline%27%29%253B%250A%2520%2520%2520%2520%2520%2520%2520%2520errorMessage.style.display%2520%253D%2520%27block%27%253B%250A%2520%2520%2520%2520%257D%2520else%2520if%2520%28%21%255Bname%252C%2520email%252C%2520password%252C%2520mobile%252C%2520birthdate%252C%2520profession%255D.map%28%28e%29%2520%253D%253E%2520e.value.trim%28%29.length%29.includes%280%29%29%2520%257B%250A%2520%2520%2520%2520%2520%2520%2520%2520if%2520%28%255Bchoice1.checked%252C%2520choice2.checked%255D.includes%28true%29%2520%2526%2526%2520terms.checked%29%2520%257B%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520document.getElementById%28%27submit%27%29.disabled%2520%253D%2520false%253B%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520document.getElementById%28%27submit%27%29.classList.add%28%27btn-primary-outline%27%29%253B%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520errorMessage.style.display%2520%253D%2520%27none%27%253B%250A%2520%2520%2520%2520%2520%2520%2520%2520%257D%2520else%2520%257B%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520document.getElementById%28%27submit%27%29.disabled%2520%253D%2520true%253B%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520document.getElementById%28%27submit%27%29.classList.remove%28%27btn-primary-outline%27%29%253B%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520errorMessage.style.display%2520%253D%2520%27block%27%253B%250A%2520%2520%2520%2520%2520%2520%2520%2520%257D%250A%2520%2520%2520%2520%257D%250A%257D%253B"
+                                    frameborder="0"
+                                    sandbox="allow-scripts allow-same-origin"
+                                    ></iframe>
+                                </code>
+                            </div>
+                            
+                        </div>
+                    </div>
+
+                    <hr>
+
+                    <div class="mb-4" id="TextUtilities">
+                        <div class="p-2">
+                            <p class="big-heading">Text Utilities</p>
+                            <p class="normal-heading">Example of Headings & Paragraphs</p>
+                            <div class="demo-box flex-column mb-4">
+                                <h1 class="h1">Example of H1 heading</h1>
+                                <h2 class="h2">Example of H2 heading</h2>
+                                <h3 class="h3">Example of H3 heading</h3>
+                                <h4 class="h4">Example of H4 heading</h4>
+                                <h5 class="h5">Example of H5 heading</h5>
+                                <p class="p">Example of a paragraph</p>
+                                <p class="big-heading">Example of Big Heading</p>
+                                <p class="normal-heading">Example of Normal Heading</p>
+                                <p class="small-heading">Example of Small Heading</p>
+                                <p class="gray">Example of Gray Heading</p>
+                            </div>
+                            <div class="code-snippet-container mb-5">
+                                <code>
+                                    <iframe
+                                    class="iframe iframe-minHeight"
+                                        src="https://carbon.now.sh/embed?bg=rgba%28249%2C237%2C212%2C1%29&t=lucario&wt=sharp&l=htmlmixed&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=IBM+Plex+Mono&fs=14px&lh=143%25&si=false&es=2x&wm=false&code=%253Ch1%2520class%253D%2522h1%2522%253EExample%2520of%2520H1%2520heading%253C%252Fh1%253E%250A%250A%253Ch2%2520class%253D%2522h2%2522%253EExample%2520of%2520H2%2520heading%253C%252Fh2%253E%250A%250A%253Ch3%2520class%253D%2522h3%2522%253EExample%2520of%2520H3%2520heading%253C%252Fh3%253E%250A%250A%253Ch4%2520class%253D%2522h4%2522%253EExample%2520of%2520H4%2520heading%253C%252Fh4%253E%250A%250A%253Ch5%2520class%253D%2522h5%2522%253EExample%2520of%2520H5%2520heading%253C%252Fh5%253E%250A%250A%253Cp%2520class%253D%2522p%2522%253EExample%2520of%2520a%2520paragraph%253C%252Fp%253E%250A%250A%253Cp%2520class%253D%2522big-heading%2522%253EExample%2520of%2520Big%2520Heading%253C%252Fp%253E%250A%250A%253Cp%2520class%253D%2522normal-heading%2522%253EExample%2520of%2520Normal%2520Heading%253C%252Fp%253E%250A%250A%253Cp%2520class%253D%2522small-heading%2522%253EExample%2520of%2520Small%2520Heading%253C%252Fp%253E%250A%250A%253Cp%2520class%253D%2522gray%2522%253EExample%2520of%2520Gray%2520Heading%253C%252Fp%253E"
+                                        frameborder="0"
+                                        sandbox="allow-scripts allow-same-origin"
+                                    ></iframe>
+                                </code>
+                            </div>
+
+                            <p class="normal-heading">Example of Text Alignment</p>
+                            <div class="demo-box flex-column mb-4">
+                                <p class="p txt-center">Example of center text</p>
+                                <p class="p txt-left">Example of left text</p>
+                                <p class="p txt-right">Example of right text</p>
+                            </div>
+                            <div class="code-snippet-container mb-5">
+                                <code>
+                                    <iframe
+                                        class="iframe iframe-minHeight"
+                                        src="https://carbon.now.sh/embed?bg=rgba%28249%2C237%2C212%2C1%29&t=lucario&wt=sharp&l=htmlmixed&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=IBM+Plex+Mono&fs=14px&lh=143%25&si=false&es=2x&wm=false&code=%253Cp%2520class%253D%2522p%2520txt-center%2522%253EExample%2520of%2520center%2520text%253C%252Fp%253E%250A%250A%253Cp%2520class%253D%2522p%2520txt-left%2522%253EExample%2520of%2520left%2520text%253C%252Fp%253E%250A%250A%253Cp%2520class%253D%2522p%2520txt-right%2522%253EExample%2520of%2520right%2520text%253C%252Fp%253E"
+                                        frameborder="0"
+                                        sandbox="allow-scripts allow-same-origin"
+                                    ></iframe>
+                                </code>
+                            </div>
+                        </div>
+                    </div>
+
+                    <hr>
+
+                    <div class="mb-4" id="Lists">
+                        <div class="p-2">
+                            <p class="big-heading">Lists</p>
+                            <p class="normal-heading">Example of Un-ordered lists</p>
+                            <div class="demo-box flex-row mb-4">
+                                <ul class="list-container no-bullets">
+                                    <li>list item 1</li>
+                                    <li>list item 2</li>
+                                    <li>list item 3</li>
+                                </ul>
+                                <ul class="list-container">
+                                    <li class="rounded">list item 1</li>
+                                    <li class="rounded">list item 2</li>
+                                    <li class="rounded">list item 3</li>
+                                </ul>
+                                <ul class="list-container">
+                                    <li class="rounded-filled">list item 1</li>
+                                    <li class="rounded-filled">list item 2</li>
+                                    <li class="rounded-filled">list item 3</li>
+                                </ul>
+                                <ul class="list-container">
+                                    <li class="squared-filled">list item 1</li>
+                                    <li class="squared-filled">list item 2</li>
+                                    <li class="squared-filled">list item 3</li>
+                                </ul>
+                            </div>
+                            <div class="code-snippet-container mb-5">
+                                <code>
+                                    <iframe
+                                    class="iframe iframe-minHeight"
+                                        src="https://carbon.now.sh/embed?bg=rgba%28249%2C237%2C212%2C1%29&t=lucario&wt=sharp&l=htmlmixed&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=IBM+Plex+Mono&fs=14px&lh=143%25&si=false&es=2x&wm=false&code=%253Cul%2520class%253D%2522list-container%2520no-bullets%2522%253E%250A%2520%2520%2520%2520%253Cli%253Elist%2520item%25201%253C%252Fli%253E%250A%2520%2520%2520%2520%253Cli%253Elist%2520item%25202%253C%252Fli%253E%250A%2520%2520%2520%2520%253Cli%253Elist%2520item%25203%253C%252Fli%253E%250A%253C%252Ful%253E%250A%250A%253Cul%2520class%253D%2522list-container%2522%253E%250A%2520%2520%2520%2520%253Cli%2520class%253D%2522rounded%2522%253Elist%2520item%25201%253C%252Fli%253E%250A%2520%2520%2520%2520%253Cli%2520class%253D%2522rounded%2522%253Elist%2520item%25202%253C%252Fli%253E%250A%2520%2520%2520%2520%253Cli%2520class%253D%2522rounded%2522%253Elist%2520item%25203%253C%252Fli%253E%250A%253C%252Ful%253E%250A%250A%253Cul%2520class%253D%2522list-container%2522%253E%250A%2520%2520%2520%2520%253Cli%2520class%253D%2522rounded-filled%2522%253Elist%2520item%25201%253C%252Fli%253E%250A%2520%2520%2520%2520%253Cli%2520class%253D%2522rounded-filled%2522%253Elist%2520item%25202%253C%252Fli%253E%250A%2520%2520%2520%2520%253Cli%2520class%253D%2522rounded-filled%2522%253Elist%2520item%25203%253C%252Fli%253E%250A%253C%252Ful%253E%250A%250A%253Cul%2520class%253D%2522list-container%2522%253E%250A%2520%2520%2520%2520%253Cli%2520class%253D%2522squared-filled%2522%253Elist%2520item%25201%253C%252Fli%253E%250A%2520%2520%2520%2520%253Cli%2520class%253D%2522squared-filled%2522%253Elist%2520item%25202%253C%252Fli%253E%250A%2520%2520%2520%2520%253Cli%2520class%253D%2522squared-filled%2522%253Elist%2520item%25203%253C%252Fli%253E%250A%253C%252Ful%253E"
+                                        frameborder="0"
+                                        sandbox="allow-scripts allow-same-origin"
+                                    ></iframe>
+                                </code>
+                            </div>
+
+                            <p class="normal-heading">Example of Ordered lists</p>
+                            <div class="demo-box flex-row mb-4">
+                                <ol class="list-container">
+                                    <li class="numbers">list item 1</li>
+                                    <li class="numbers">list item 2</li>
+                                    <li class="numbers">list item 3</li>
+                                </ol>
+                                <ol class="list-container">
+                                    <li class="alphabets-lower">list item 1</li>
+                                    <li class="alphabets-lower">list item 2</li>
+                                    <li class="alphabets-lower">list item 3</li>
+                                </ol>
+                                <ol class="list-container" reversed>
+                                    <li class="alphabets-lower">list item 1</li>
+                                    <li class="alphabets-lower">list item 2</li>
+                                    <li class="alphabets-lower">list item 3</li>
+                                </ol>
+                                <ol class="list-container">
+                                    <li class="alphabets-upper">list item 1</li>
+                                    <li class="alphabets-upper">list item 2</li>
+                                    <li class="alphabets-upper">list item 3</li>
+                                </ol>
+                                <ol class="list-container">
+                                    <li class="roman-lower">list item 1</li>
+                                    <li class="roman-lower">list item 2</li>
+                                    <li class="roman-lower">list item 3</li>
+                                </ol>
+                                <ol class="list-container">
+                                    <li class="roman-upper">list item 1</li>
+                                    <li class="roman-upper">list item 2</li>
+                                    <li class="roman-upper">list item 3</li>
+                                </ol>
+                            </div>
+                            <div class="code-snippet-container mb-5">
+                                <code>
+                                    <iframe
+                                    class="iframe iframe-minHeight"
+                                        src="https://carbon.now.sh/embed?bg=rgba%28249%2C237%2C212%2C1%29&t=lucario&wt=sharp&l=htmlmixed&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=IBM+Plex+Mono&fs=14px&lh=143%25&si=false&es=2x&wm=false&code=%253Col%2520class%253D%2522list-container%2522%253E%250A%2520%2520%2520%2520%253Cli%2520class%253D%2522numbers%2522%253Elist%2520item%25201%253C%252Fli%253E%250A%2520%2520%2520%2520%253Cli%2520class%253D%2522numbers%2522%253Elist%2520item%25202%253C%252Fli%253E%250A%253C%252Fol%253E%250A%250A%253Col%2520class%253D%2522list-container%2522%253E%250A%2520%2520%2520%2520%253Cli%2520class%253D%2522alphabets-lower%2522%253Elist%2520item%25201%253C%252Fli%253E%250A%2520%2520%2520%2520%253Cli%2520class%253D%2522alphabets-lower%2522%253Elist%2520item%25202%253C%252Fli%253E%250A%253C%252Fol%253E%250A%250A%253Col%2520class%253D%2522list-container%2522%2520reversed%253E%250A%2520%2520%2520%2520%253Cli%2520class%253D%2522alphabets-lower%2522%253Elist%2520item%25201%253C%252Fli%253E%250A%2520%2520%2520%2520%253Cli%2520class%253D%2522alphabets-lower%2522%253Elist%2520item%25202%253C%252Fli%253E%250A%253C%252Fol%253E%250A%250A%253Col%2520class%253D%2522list-container%2522%253E%250A%2520%2520%2520%2520%253Cli%2520class%253D%2522alphabets-upper%2522%253Elist%2520item%25201%253C%252Fli%253E%250A%2520%2520%2520%2520%253Cli%2520class%253D%2522alphabets-upper%2522%253Elist%2520item%25202%253C%252Fli%253E%250A%253C%252Fol%253E%250A%250A%253Col%2520class%253D%2522list-container%2522%253E%250A%2520%2520%2520%2520%253Cli%2520class%253D%2522roman-lower%2522%253Elist%2520item%25201%253C%252Fli%253E%250A%2520%2520%2520%2520%253Cli%2520class%253D%2522roman-lower%2522%253Elist%2520item%25202%253C%252Fli%253E%250A%253C%252Fol%253E%250A%250A%253Col%2520class%253D%2522list-container%2522%253E%250A%2520%2520%2520%2520%253Cli%2520class%253D%2522roman-upper%2522%253Elist%2520item%25201%253C%252Fli%253E%250A%2520%2520%2520%2520%253Cli%2520class%253D%2522roman-upper%2522%253Elist%2520item%25202%253C%252Fli%253E%250A%253C%252Fol%253E"
+                                        frameborder="0"
+                                        sandbox="allow-scripts allow-same-origin"
+                                    ></iframe>
+                                </code>
+                            </div>
+
+                            <p class="normal-heading">Example of inline list items</p>
+                            <div class="demo-box flex-row mb-4">
+                                <ul class="list-container no-bullets flex-row">
+                                    <li>list item 1</li>
+                                    <li class="numbers">list item 2</li>
+                                    <li class="numbers">list item 3</li>
+                                </ul>
+                            </div>
+                            <div class="code-snippet-container mb-5">
+                                <code>
+                                    <iframe
+                                    class="iframe"
+                                        src="https://carbon.now.sh/embed?bg=rgba%28249%2C237%2C212%2C1%29&t=lucario&wt=sharp&l=htmlmixed&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=IBM+Plex+Mono&fs=14px&lh=143%25&si=false&es=2x&wm=false&code=%253Cul%2520class%253D%2522list-container%2520no-bullets%2520flex-row%2522%253E%250A%2520%2520%2520%2520%253Cli%253Elist%2520item%25201%253C%252Fli%253E%250A%2520%2520%2520%2520%253Cli%2520class%253D%2522numbers%2522%253Elist%2520item%25202%253C%252Fli%253E%250A%2520%2520%2520%2520%253Cli%2520class%253D%2522numbers%2522%253Elist%2520item%25203%253C%252Fli%253E%250A%253C%252Ful%253E"
+                                        frameborder="0"
+                                        sandbox="allow-scripts allow-same-origin"
+                                    ></iframe>
+                                </code>
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <hr>
 
                     <div class="mb-4" id="Navigation">
                         <div class="p-2">
@@ -40,7 +552,7 @@
                             <div class="demo-box mb-4">
                                 <nav class="navigation-bar flex-row flex-align-center flex-justify-spaceBetween p-4">
                                     <div class="flex-row flex-align-center">
-                                        <img class="img-rounded mx-4" src="https://images.unsplash.com/photo-1644371972225-4917efaa3958?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80" alt="logo">
+                                        <img class="nav-image mx-4" src="https://images.unsplash.com/photo-1644371972225-4917efaa3958?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80" alt="logo">
                                         <p class="small-heading ml-4"><strong>Mobiles</strong></p>
                                         <p class="small-heading ml-4"><strong>Tablets</strong></p>
                                         <p class="small-heading mx-4"><strong>Laptops</strong></p>
@@ -65,9 +577,6 @@
                             </div>
                         </div>
                     </div>
-
-                    <hr />
-                    
                 </section>
 
                 <section class="sidebar ml-2 p-4">

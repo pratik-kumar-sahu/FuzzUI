@@ -1,4 +1,13 @@
 @import "./components/navigation.css";
+@import "./components/lists.css";
+@import "./components/textUtilities.css";
+@import "./components/button.css";
+@import "./components/input.css";
+@import "./components/image.css";
+@import "./components/card.css";
+@import './components/avatar.css';
+@import './components/badge.css';
+@import './components/alert.css';
 
 /* temporary styling ignore this -------------> */
 
@@ -153,7 +162,6 @@
     width: 100%;
     height: auto;
     overflow: hidden;
-    /* border: 1px solid var(--color-background); */
     border-radius: .5rem;
     box-sizing: border-box;
 }

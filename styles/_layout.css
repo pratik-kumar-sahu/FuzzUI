@@ -1,5 +1,4 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700&display=swap');
-@import url('https://cdnjs.cloudflare.com/ajax/libs/ionicons/4.5.6/css/ionicons.min.css');
 
 * {
     margin: 0;
@@ -60,7 +59,6 @@ body {
 .grid {
     display: grid;
     gap: 1.5rem;
-    /* padding: 1.5rem; */
     overflow: hidden;
 }
 
