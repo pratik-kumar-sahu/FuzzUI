@@ -3,10 +3,33 @@
     --color-primary-light: #f1f5f9;
     --color-primary: #64748b;
     --color-primary-dark: #0f172a;
-
+    
     --color-background: #f3f6fd;
     --color-white: #fff;
     --color-black: #000;
+    
+    /* Custom Colors */
+    --success: green;
+    --danger: #dc2626;
+    --warning: #ca8a04;
+    --info: #0284c7;
+
+    --success-light: #bbf7d0;
+    --danger-light: #fecaca;
+    --warning-light: #fef08a;
+    --info-light: #bae6fd;
+
+    --online: green;
+    --offline: var(--color-primary);
+    --away: #f59e0b;
+    --busy: red;
+    
+    --btn-primary-dark: #0d7caf;
+    --btn-primary-light: #0ea5e9;
+    --btn-secondary-light: #94a3b8;
+    
+    --royalblue: royalblue;
+    --gray: gray;
 
     /* Breakpoints for diff. screens */
     --breakpoint-xs: 48rem;
@@ -19,4 +42,6 @@
     /* Layout */
     --margin: 0.25rem;
     --padding: 0.25rem;
+    --shadow: 1px 1px 10px rgba(0, 0, 0, 0.05), -0px -0px 10px rgba(0, 0, 0, 0.05);
+
 }
