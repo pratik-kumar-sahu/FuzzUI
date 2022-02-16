@@ -1,0 +1,34 @@
+.toast-icon {
+    width: 2.5rem;
+    height: 2.5rem;
+    cursor: pointer;
+}
+
+.toast {
+    max-width: 40rem;
+    padding: 0.8rem 1.4rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 0.5rem;
+}
+
+.toast-success {
+    color: var(--color-black);
+    background-color: var(--success-light);
+}
+
+.toast-warning {
+    color: var(--color-black);
+    background-color: var(--warning-light);
+}
+
+.toast-error {
+    color: var(--color-black);
+    background-color: var(--danger-light);
+}
+
+.toast-info {
+    color: var(--color-black);
+    background-color: var(--info-light);
+}
