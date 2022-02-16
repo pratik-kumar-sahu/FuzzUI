@@ -11,5 +11,5 @@
 }
 
 .gray {
-    color: gray;
+    color: var(--gray);
 }
