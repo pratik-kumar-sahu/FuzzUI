@@ -24,7 +24,7 @@ body {
     font-size: 1.6rem;
     width: 100vw;
     height: 100vh;
-    letter-spacing: .05em;
+    letter-spacing: 0.05em;
     position: relative;
     color: var(--color-primary);
     background-color: var(--color-background);
@@ -48,6 +48,10 @@ body {
 
 .flex-align-center {
     align-items: center;
+}
+
+.flex-justify-center {
+    justify-content: center;
 }
 
 .flex-justify-spaceBetween {
@@ -150,7 +154,8 @@ h6,
     font-size: 1.25rem;
 }
 
-p, .p {
+p,
+.p {
     font-size: 1.6rem;
 }
 
