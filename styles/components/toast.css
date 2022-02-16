@@ -15,20 +15,20 @@
 
 .toast-success {
     color: var(--color-black);
-    background-color: #86efac;
+    background-color: var(--success-light);
 }
 
 .toast-warning {
     color: var(--color-black);
-    background-color: #fde047;
+    background-color: var(--warning-light);
 }
 
 .toast-error {
     color: var(--color-black);
-    background-color: #fda4af;
+    background-color: var(--danger-light);
 }
 
 .toast-info {
     color: var(--color-black);
-    background-color: #93c5fd;
+    background-color: var(--info-light);
 }

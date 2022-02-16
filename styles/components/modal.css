@@ -1,0 +1,18 @@
+.modal-container {
+    width: 50%;
+    height: 30rem;
+    margin: 0 auto;
+    border-radius: 1rem;
+    color: var(--color-white);
+    background-color: var(--royalblue);
+}
+
+.close-icon {
+    width: 3rem;
+    height: 3rem;
+    position: absolute;
+    top: 0;
+    left: 94%;
+    color: var(--color-white);
+    cursor: pointer;
+}

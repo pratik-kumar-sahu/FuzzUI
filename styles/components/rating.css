@@ -1,0 +1,7 @@
+.rating-checkbox {
+    display: none;
+}
+
+.rating-checked {
+    color: #facc15;
+}
