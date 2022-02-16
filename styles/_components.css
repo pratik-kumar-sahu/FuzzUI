@@ -1,3 +1,4 @@
+@import "./components/textUtilities.css";
 @import "./components/button.css";
 @import "./components/input.css";
 @import "./components/image.css";
@@ -81,6 +82,9 @@
 
 .sidebar-links {
     list-style: none;
+    height: 80vh;
+    overflow: hidden;
+    overflow-y: scroll;
 }
 
 .sidebar-link-item {

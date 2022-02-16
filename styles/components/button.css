@@ -78,7 +78,7 @@
 }
 
 .btn-disabled {
-    background-color: gray;
-    color: gray;
+    background-color: var(--gray);
+    color: var(--gray);
     cursor: no-drop;
 }
