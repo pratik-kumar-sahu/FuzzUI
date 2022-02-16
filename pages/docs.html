@@ -8,7 +8,7 @@
         <title>FuzzUI</title>
     </head>
     <body>
-        <main class="parent-container flex-column">
+        <main class="parent-container flex-column relative">
             <section class="header p-4">
                 <h1 class="title">Fuzz UI</h1>
             </section>
@@ -154,7 +154,39 @@
 
                     <hr>
                     
-                    <div class="my-4" id="Button">Button</div>
+                    <div class="mb-4" id="Button">
+                        <div class="p-2">
+                            <p class="big-heading">Button</p>
+                            <p class="normal-heading">Example of Buttons</p>
+                            <div class="demo-box flex-row flex-align-center mb-4">
+                                <button class="btn btn-primary-solid">Primary</button>
+                                <button class="btn btn-secondary-solid">Secondary</button>
+                                <button class="btn btn-primary-outline">Primary</button>
+                                <button class="btn btn-secondary-outline">Secondary</button>
+                                <ion-icon class="btn-logo mx-1" name="logo-linkedin"></ion-icon>
+                                <p class="btn-txt">TextButton</p>
+                                <button class="btn btn-icon btn-primary-solid">
+                                    <ion-icon class="mr-2" name="logo-react"></ion-icon>React
+                                </button>
+                                <button class="btn btn-icon btn-primary-solid btn-floating">
+                                    <ion-icon class="mr-2" name="logo-discord"></ion-icon>Discord
+                                </button>
+                            </div>
+                            <div class="code-snippet-container mb-5">
+                                <code>
+                                    <iframe
+                                        class="iframe iframe-minHeight"
+                                        src="https://carbon.now.sh/embed?bg=rgba%28249%2C237%2C212%2C1%29&t=lucario&wt=sharp&l=htmlmixed&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=IBM+Plex+Mono&fs=14px&lh=143%25&si=false&es=2x&wm=false&code=%253Cbutton%2520class%253D%2522btn%2520btn-primary-solid%2522%253EPrimary%253C%252Fbutton%253E%250A%253Cbutton%2520class%253D%2522btn%2520btn-secondary-solid%2522%253ESecondary%253C%252Fbutton%253E%250A%253Cbutton%2520class%253D%2522btn%2520btn-primary-outline%2522%253EPrimary%253C%252Fbutton%253E%250A%253Cbutton%2520class%253D%2522btn%2520btn-secondary-outline%2522%253ESecondary%253C%252Fbutton%253E%250A%253Cion-icon%2520class%253D%2522btn-logo%2522%2520name%253D%2522logo-linkedin%2522%253E%253C%252Fion-icon%253E%250A%253Cp%2520class%253D%2522btn-txt%2522%253ETextButton%253C%252Fp%253E%250A%253Cbutton%2520class%253D%2522btn%2520btn-icon%2520btn-primary-solid%2522%253E%250A%2520%2520%2520%2520%253Cion-icon%2520class%253D%2522mr-2%2522%2520name%253D%2522logo-react%2522%253E%253C%252Fion-icon%253EReact%250A%253C%252Fbutton%253E%250A%253Cbutton%2520class%253D%2522btn%2520btn-icon%2520btn-primary-solid%2520btn-floating%2522%253E%250A%2520%2520%2520%2520%253Cion-icon%2520class%253D%2522mr-2%2522%2520name%253D%2522logo-discord%2522%253E%253C%252Fion-icon%253EDiscord%250A%253C%252Fbutton%253E"
+                                        frameborder="0"
+                                        sandbox="allow-scripts allow-same-origin"
+                                    ></iframe>
+                                </code>
+                            </div>
+                        </div>
+                    </div>
+
+                    <hr>
+
                     <div class="my-4" id="Cards">Cards</div>
                     <div class="my-4" id="Image">Image</div>
                     <div class="my-4" id="Input">Input</div>

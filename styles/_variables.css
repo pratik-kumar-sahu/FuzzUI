@@ -23,6 +23,10 @@
     --offline: var(--color-primary);
     --away: #f59e0b;
     --busy: red;
+    
+    --btn-primary-dark: #0d7caf;
+    --btn-primary-light: #0ea5e9;
+    --btn-secondary-light: #94a3b8;
 
     /* Breakpoints for diff. screens */
     --breakpoint-xs: 48rem;
