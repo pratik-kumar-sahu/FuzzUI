@@ -50,6 +50,10 @@ body {
     align-items: center;
 }
 
+.flex-justify-spaceBetween {
+    justify-content: space-between;
+}
+
 /* Grid Layout -----------------------------> */
 
 .grid {
@@ -229,7 +233,7 @@ p, .p {
 }
 
 .ml-4 {
-    margin-left: calc(4 * var(--margin));
+    margin-left: calc(4 * var(--margin)) !important;
 }
 
 .ml-5 {
@@ -245,7 +249,7 @@ p, .p {
 }
 
 .mr-3 {
-    margin-right: calc(3 * var(--margin));
+    margin-right: calc(3 * var(--margin)) !important;
 }
 
 .mr-4 {
@@ -267,13 +271,13 @@ p, .p {
 }
 
 .mx-3 {
-    margin-left: calc(3 * var(--margin));
-    margin-right: calc(3 * var(--margin));
+    margin-left: calc(3 * var(--margin)) !important;
+    margin-right: calc(3 * var(--margin)) !important;
 }
 
 .mx-4 {
-    margin-left: calc(4 * var(--margin));
-    margin-right: calc(4 * var(--margin));
+    margin-left: calc(4 * var(--margin)) !important;
+    margin-right: calc(4 * var(--margin)) !important;
 }
 
 .mx-5 {
