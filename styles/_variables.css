@@ -30,6 +30,7 @@
     
     --royalblue: royalblue;
     --gray: gray;
+    --gray-light: #d3d3d3;
 
     /* Breakpoints for diff. screens */
     --breakpoint-xs: 48rem;
