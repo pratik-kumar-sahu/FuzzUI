@@ -21,7 +21,7 @@
 }
 
 .border {
-    border: 2px solid royalblue;
+    border: 2px solid var(--royalblue);
 }
 
 .header {
@@ -83,7 +83,7 @@
 }
 
 .inner-shadow {
-    box-shadow: inset 0 0 6px 0 #d3d3d3;
+    box-shadow: inset 0 0 6px 0 var(--gray-light);
 }
 
 .sidebar-links {
