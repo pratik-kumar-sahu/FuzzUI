@@ -47,15 +47,25 @@ body {
 }
 
 .flex-align-center {
+    display: flex;
     align-items: center;
 }
 
-.flex-justify-center {
+.flex-j-a-center {
+    display: flex;
     justify-content: center;
+    align-items: center;
 }
 
-.flex-justify-spaceBetween {
+.flex-j-space-a-center {
+    display: flex;
     justify-content: space-between;
+    align-items: center;
+}
+
+.flex-j-end {
+    display: flex;
+    justify-content: flex-end;
 }
 
 /* Grid Layout -----------------------------> */
