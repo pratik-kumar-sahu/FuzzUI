@@ -9,15 +9,90 @@
     </head>
     <body>
         <main class="parent-container flex-column">
-            <section class="header p-4">
-                <h1 class="title">Fuzz UI</h1>
+            <section class="header flex-j-space-a-center p-4">
+                <a href="#">
+                    <img class="logo" src="../assets/fuzz_logo.png" alt="FuzzUI" />
+                </a>
+                <div>
+                    <a href="https://github.com/pratik-kumar-sahu" target="_blank"
+                        ><ion-icon class="icon mr-3" name="logo-github"></ion-icon
+                    ></a>
+                    <a href="https://www.linkedin.com/in/pratik-kr-sahu/" target="_blank"
+                        ><ion-icon class="icon mr-3" name="logo-linkedin"></ion-icon
+                    ></a>
+                    <a href="https://twitter.com/pratik_kr_sahu" target="_blank"
+                        ><ion-icon class="icon mr-3" name="logo-twitter"></ion-icon
+                    ></a>
+                    <ion-icon class="icon mr-3" name="logo-discord"></ion-icon>
+                </div>
             </section>
+
             <section class="flex-row main-content ml-4">
                 <nav class="nav mr-2 flex-column flex-center">
                     <a href="#"><ion-icon class="icon my-3" name="home-outline"></ion-icon></a>
                     <a href="./pages/docs.html"><ion-icon class="icon my-3" name="documents-outline"></ion-icon></a>
                 </nav>
-                <section class="content-home ml-2 p-4 inner-shadow">main content</section>
+
+                <section class="content-home ml-2 px-4 pt-4 inner-shadow">
+                    <div class="grid grid-40-60 m-4">
+                        <div class="hero-container flex-j-a-center-column">
+                            <div class="hero-title">
+                                Create a <span class="text-gradient">Buzz</span> with
+                                <span class="text-gradient">Fuzz UI</span>
+                            </div>
+                            <div class="hero-content">
+                                <ul class="my-2 ml-2">
+                                    <li class="rounded-filled">clean & simple user interface</li>
+                                    <li class="rounded-filled">easy to navigate & install</li>
+                                    <li class="rounded-filled">
+                                        increase your productivity with user-friendly library
+                                    </li>
+                                    <li class="rounded-filled">
+                                        use ready made components directly in your application
+                                    </li>
+                                </ul>
+                                <div>
+                                    <button class="btn btn-secondary-solid"><a href="#Install">Installation</a></button>
+                                    <button class="btn btn-secondary-outline">
+                                        <a href="./pages/docs.html">Documentation</a>
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                        <img class="img-responsive" src="./assets/hero.png" alt="Hero-Image" />
+                    </div>
+
+                    <div class="grid grid-40-60 m-4">
+                        <div class="hero-container flex-j-a-center">
+                            <div>
+                                <h1 id="Install">Installation</h1>
+                                <p class="hero-content">
+                                    Use the following &lt;link tag&gt; in the &lt;head tag&gt; of your main html file.
+                                    For icons, remember to include script tags also. Go through demo examples of the
+                                    documentation and directly use them with your custom styles
+                                    <ion-icon name="arrow-redo"></ion-icon>
+                                </p>
+                            </div>
+                        </div>
+                        <div class="code-snippet-container">
+                            <code>
+                                <iframe
+                                    class="iframe iframe-minHeight"
+                                    src="https://carbon.now.sh/embed?bg=rgba%28249%2C237%2C212%2C1%29&t=lucario&wt=sharp&l=htmlmixed&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=IBM+Plex+Mono&fs=14px&lh=143%25&si=false&es=2x&wm=false&code=%253C%21--%2520link%2520tag%2520for%2520styling%2520--%253E%250A%253Clink%2520rel%253D%2522stylesheet%2522%2520href%253D%2522https%253A%252F%252Ffuzz-ui.netlify.app%252Fstyles%252FFuzzUI.css%2522%253E%250A%250A%253C%21--%2520script%2520for%2520icons%2520--%253E%250A%253Cscript%2520type%253D%2522module%2522%2520src%253D%2522https%253A%252F%252Funpkg.com%252Fionicons%25405.5.2%252Fdist%252Fionicons%252Fionicons.esm.js%2522%253E%253C%252Fscript%253E%250A%253Cscript%2520nomodule%2520src%253D%2522https%253A%252F%252Funpkg.com%252Fionicons%25405.5.2%252Fdist%252Fionicons%252Fionicons.js%2522%253E%253C%252Fscript%253E"
+                                    frameborder="0"
+                                    sandbox="allow-scripts allow-same-origin"
+                                ></iframe>
+                            </code>
+                        </div>
+                    </div>
+
+                    <div class="footer custom-margin flex-j-a-center">
+                        <div class="flex-j-a-center-column">
+                            <span> Made with <strong class="angle-brackets">&lt;/&gt;</strong> by Pratik Sahu </span>
+                            <span> © 2022 </span>
+                        </div>
+                    </div>
+                </section>
             </section>
         </main>
 
@@ -26,3 +101,5 @@
         <script src="../logics/main.js"></script>
     </body>
 </html>
+
+<!-- link tag -->

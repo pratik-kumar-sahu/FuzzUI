@@ -26,12 +26,14 @@
 
 .header {
     height: 10vh;
-    display: flex;
-    align-items: center;
 }
 
 .title {
     color: var(--color-primary-dark);
+}
+
+.logo {
+    width: 8rem;
 }
 
 .main-content {
@@ -72,8 +74,12 @@
 .icon {
     font-size: 3rem;
     padding: 0.5rem;
-    color: var(--color-primary);
+    color: var(--color-primary-dark);
     cursor: pointer;
+}
+
+.icon:hover {
+    color: var(--color-primary);
 }
 
 ::-webkit-scrollbar {
@@ -114,6 +120,7 @@
 }
 
 .component {
+    color: var(--color-primary-dark);
     font-weight: 300;
 }
 
@@ -172,4 +179,44 @@
 
 .iframe-minHeight {
     min-height: 20rem;
+}
+
+.hero-container {
+    width: 80%;
+    font-weight: 600;
+    margin-left: 8rem;
+}
+
+.hero-title {
+    font-size: 5rem;
+    line-height: 6rem;
+}
+
+.hero-content {
+    font-weight: 400;
+}
+
+.text-gradient {
+    text-decoration: underline;
+    background: -webkit-linear-gradient(var(--color-background), var(--color-primary));
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.footer {
+    width: 100%;
+    height: 15rem;
+    margin-top: 1rem;
+    border-start-start-radius: 1rem;
+    border-start-end-radius: 1rem;
+    background-color: var(--color-background);
+}
+
+.custom-margin {
+    margin-top: 7rem;
+}
+
+.angle-brackets {
+    color: var(--color-black);
 }

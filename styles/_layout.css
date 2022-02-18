@@ -30,6 +30,11 @@ body {
     background-color: var(--color-background);
 }
 
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
 /* Flex Layout -----------------------------> */
 
 .flex-row {
@@ -53,6 +58,13 @@ body {
 
 .flex-j-a-center {
     display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.flex-j-a-center-column {
+    display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
 }
