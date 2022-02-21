@@ -1,6 +1,8 @@
 > ## FuzzUI: A Component Library
 
-### Components:
+## Live link to [FuzzUI](https://fuzz-ui.netlify.app/)
+
+### Available Components:
 
 - Alerts
 - Avatar
