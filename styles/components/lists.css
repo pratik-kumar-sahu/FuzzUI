@@ -46,3 +46,20 @@
     list-style-type: upper-roman;
     margin-left: 1.5rem;
 }
+
+.stacked {
+    width: 100%;
+    height: 3rem;
+    padding: 0.2rem 0.6rem;
+}
+
+.active {
+    color: var(--color-white);
+    background-color: var(--royalblue);
+    cursor: pointer;
+}
+
+.passive:hover {
+    cursor: pointer;
+    background-color: var(--color-background);
+}

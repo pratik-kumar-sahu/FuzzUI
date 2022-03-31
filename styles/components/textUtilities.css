@@ -13,3 +13,7 @@
 .gray {
     color: var(--gray);
 }
+
+.small-text {
+    font-size: 1.2rem;
+}
